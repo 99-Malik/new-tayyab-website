@@ -150,7 +150,7 @@ const BoschHeader = () => {
                 <Link className="text-white hover:bg-[#FF2600] hover:text-black font-bold" href="#">Home</Link>
               </li>
               <li>
-                <Link className="text-white hover:bg-[#FF2600] hover:text-black font-bold" className="text-white hover:bg-[#FF2600] hover:text-black font-bold" href="/contact">About Us</Link>
+                <Link c className="text-white hover:bg-[#FF2600] hover:text-black font-bold" href="/contact">About Us</Link>
               </li>
               <li>
                 <Link className="text-white hover:bg-[#FF2600] hover:text-black font-bold" href="#">Services</Link>
