@@ -6,7 +6,7 @@ import Link from "next/link";
 import CallButton from "./buttons/CallButton";
 import { useRouter } from "next/navigation";
 
-const Service = ({ name, imageUrl, description, dark, callButtonColor="bg-[#FF2600]", disableLink }) => {
+const Service = ({ name, imageUrl, description, dark, callButtonColor="bg-[#F8860D]", disableLink }) => {
   const router = useRouter();
   const slugify = (text) => {
     return text
@@ -62,7 +62,7 @@ const Service = ({ name, imageUrl, description, dark, callButtonColor="bg-[#FF26
         </p>
         <div className="card-actions justify-end">
         <button
-                className="btn btn-info-content mt-[10px] bg-[#FF2600]  text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
+                className="btn btn-info-content mt-[10px] bg-[#F8860D]  text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
                 onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
                 }}

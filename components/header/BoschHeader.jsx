@@ -79,33 +79,33 @@ const BoschHeader = () => {
               {showMenu &&
                 <ul className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-black rounded-box z-50">
                   <li>
-                    <Link className="text-white hover:bg-[#FF2600] hover:text-black font-bold" href="#">Home</Link>
+                    <Link className="text-white hover:bg-[#F8860D] hover:text-black font-bold" href="#">Home</Link>
                   </li>
                   <li>
-                    <Link className="text-white hover:bg-[#FF2600] hover:text-black font-bold" href="/contact">About Us</Link>
+                    <Link className="text-white hover:bg-[#F8860D] hover:text-black font-bold" href="/contact">About Us</Link>
                   </li>
                   <li>
-                    <summary className="text-white hover:bg-[#FF2600] font-bold">Services</summary>
+                    <summary className="text-white hover:bg-[#F8860D] font-bold">Services</summary>
                     <ul className="p-2 z-50 focus:!bg-black hover:black">
                       <li>
-                        <Link className="text-white hover:bg-[#FF2600] hover:text-black font-bold"  href="#washing">
+                        <Link className="text-white hover:bg-[#F8860D] hover:text-black font-bold"  href="#washing">
                           Washing Machine Repair
                         </Link>
                       </li>
     
                       <li>
-                        <Link className="text-white hover:bg-[#FF2600] hover:text-black font-bold" href="#dryer">
+                        <Link className="text-white hover:bg-[#F8860D] hover:text-black font-bold" href="#dryer">
                           Dryer Repair
                         </Link>
                       </li>
       
                       <li>
-                        <Link className="text-white hover:bg-[#FF2600] hover:text-black font-bold" href="#dishwasher">
+                        <Link className="text-white hover:bg-[#F8860D] hover:text-black font-bold" href="#dishwasher">
                           Dishwasher Repair
                         </Link>
                       </li>
                       <li>
-                        <Link className="text-white hover:bg-[#FF2600] hover:text-black font-bold" href="#stove">
+                        <Link className="text-white hover:bg-[#F8860D] hover:text-black font-bold" href="#stove">
                           Gas Stove / Cooker Repair
                         </Link>
                       </li>
@@ -113,7 +113,7 @@ const BoschHeader = () => {
                     </ul>
                   </li>
                   <li>
-                    <Link className="text-white hover:bg-[#FF2600] hover:text-black font-bold" href="/contact">Contact Us</Link>
+                    <Link className="text-white hover:bg-[#F8860D] hover:text-black font-bold" href="/contact">Contact Us</Link>
                   </li>
                 </ul>}
             </div>
@@ -141,23 +141,23 @@ const BoschHeader = () => {
                 />
               </svg>
 
-              <h1 className="text-white text-xl">RepairHome</h1><span><h1 className="text-[#FF2600] text-xl ml-[-2px] mt-0.5 font-extrabold">UAE</h1></span>
+              <h1 className="text-white text-xl">RepairHome</h1><span><h1 className="text-[#F8860D] text-xl ml-[-2px] mt-0.5 font-extrabold">UAE</h1></span>
             </Link>
           </div>
           <div className="navbar-end hidden lg:flex z-50 text-info-content font-extrabold">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <Link className="text-white hover:bg-[#FF2600] hover:text-black font-bold" href="#">Home</Link>
+                <Link className="text-white hover:bg-[#F8860D] hover:text-black font-bold" href="#">Home</Link>
               </li>
               <li>
-                <Link c className="text-white hover:bg-[#FF2600] hover:text-black font-bold" href="/contact">About Us</Link>
+                <Link c className="text-white hover:bg-[#F8860D] hover:text-black font-bold" href="/contact">About Us</Link>
               </li>
               <li>
-                <Link className="text-white hover:bg-[#FF2600] hover:text-black font-bold" href="#">Services</Link>
+                <Link className="text-white hover:bg-[#F8860D] hover:text-black font-bold" href="#">Services</Link>
               </li>
               <li>
                 <button
-                  className="px-5 ml-[5px]  bg-[#FF2600] text-white hover:bg-[white] hover:black rounded duration-150 shadow-md"
+                  className="px-5 ml-[5px]  bg-[#F8860D] text-white hover:bg-[white] hover:black rounded duration-150 shadow-md"
                   onClick={() => {
                     window.location.href = `tel:${phoneNumber}`;
                   }}

@@ -42,7 +42,7 @@ const Footer = ({color, company}) => {
 
               <h1 className="text-white text-xl">RepairHome</h1>
               <span>
-                <h1 className="text-[#FF2600] text-xl ml-[-2px] mt-0.5 font-extrabold">
+                <h1 className="text-[#F8860D] text-xl ml-[-2px] mt-0.5 font-extrabold">
                   UAE
                 </h1>
               </span>
@@ -56,7 +56,7 @@ const Footer = ({color, company}) => {
           </p>
         </Link>
         <div>
-          <span className="footer-title text-[#FF2600] opacity-100">Services</span>
+          <span className="footer-title text-[#F8860D] opacity-100">Services</span>
           <Link
             href="#"
             className="link link-hover"
@@ -74,7 +74,7 @@ const Footer = ({color, company}) => {
           </Link>
         </div>
         <div>
-          <span className="footer-title text-[#FF2600] opacity-100">Legal</span>
+          <span className="footer-title text-[#F8860D] opacity-100">Legal</span>
           <a className="link link-hover" href="/privacyPolicy">PrivacyPolicy</a>
           <a className="link link-hover" href="/contact">Contact Us</a>
         </div>

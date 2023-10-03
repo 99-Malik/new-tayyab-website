@@ -28,7 +28,7 @@ const BoschPage = () => {
           />
           <div>
             <h1 className="text-4xl  font-raleway text-white leading-tight">
-              <span className="text-[#FF2600] font-bold">
+              <span className="text-[#F8860D] font-bold">
                 RepairHomeUAE
               </span>{" "}
               <span>Appliances Service Center</span>
@@ -43,7 +43,7 @@ const BoschPage = () => {
             </p>
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
               <button
-                className="px-5 py-4 bg-[#FF2600]  hover:scale-110  text-black font-bold hover:bg-[white] hover:text-black hover:font-bold rounded-lg duration-200 shadow-md"
+                className="px-5 py-4 bg-[#F8860D]  hover:scale-110  text-black font-bold hover:bg-[white] hover:text-black hover:font-bold rounded-lg duration-200 shadow-md"
                 onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
                 }}
@@ -51,7 +51,7 @@ const BoschPage = () => {
                 {phoneNumber}
               </button>
               <button
-                className="px-5 py-4 bg-[#FF2600]  hover:scale-110  text-black font-bold hover:bg-[white] hover:text-black hover:font-bold rounded-lg duration-200 shadow-md"
+                className="px-5 py-4 bg-[#F8860D]  hover:scale-110  text-black font-bold hover:bg-[white] hover:text-black hover:font-bold rounded-lg duration-200 shadow-md"
                 onClick={() => {
                   window.location.href = `//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`;
                 }}
@@ -65,10 +65,10 @@ const BoschPage = () => {
       <div className="w-full h-[40px] bg-[#202020]" />
       <div className="w-full h-[100px] flex bg-[#202020] justify-center mt-[-2px]">
         <div className="w-[500px]  h-[80px] md:h-full  flex flex-col text-center align-middle">
-          <h5 className="text-base text-[#FF2600] font-bold ">
+          <h5 className="text-base text-[#F8860D] font-bold ">
             We Commit Quality Repairing
           </h5>
-          <h1 className="text-3xl text-[#FF2600] font-extrabold">
+          <h1 className="text-3xl text-[#F8860D] font-extrabold">
             We Maintain Trust!
           </h1>
         </div>
@@ -76,14 +76,14 @@ const BoschPage = () => {
 
       <div className="w-auto mt-[-2px] bg-[#202020]  md:mx-0 md:w-full h-auto md:h-auto  flex flex-col md:flex-row justify-evenly items-center ">
         <div className="w-full p-4 md:w-[300px] h-[300px]">
-          <div className="w-full   drop-shadow-3xl h-[250px] md:hover:scale-110 duration-300  bg-[#171717] rounded-2xl border-[3px] border-[#FF2600] flex flex-col justify-center items-center text-center">
+          <div className="w-full   drop-shadow-3xl h-[250px] md:hover:scale-110 duration-300  bg-[#171717] rounded-2xl border-[3px] border-[#F8860D] flex flex-col justify-center items-center text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-20 h-20 text-[#FF2600] hover:scale-110 duration-300"
+              class="w-20 h-20 text-[#F8860D] hover:scale-110 duration-300"
             >
               <path
                 stroke-linecap="round"
@@ -92,25 +92,25 @@ const BoschPage = () => {
               />
             </svg>
 
-            <h1 className="text-xl mt-2 bold text-[#FF2600]">
+            <h1 className="text-xl mt-2 bold text-[#F8860D]">
               Call US AnyTime
             </h1>
 
-            <h1 className="p-2 md:p-2 text-[#FF2600]">
+            <h1 className="p-2 md:p-2 text-[#F8860D]">
               We do offer a 24*7 repair & service of All Brands Appliances.
             </h1>
           </div>
         </div>
 
         <div className="w-full p-4   md:w-[300px] h-[300px]">
-          <div className="w-full h-[250px] drop-shadow-xl  bg-[#171717] md:hover:scale-110 duration-300 rounded-2xl  border-[3px] border-[#FF2600] flex flex-col justify-center items-center text-center">
+          <div className="w-full h-[250px] drop-shadow-xl  bg-[#171717] md:hover:scale-110 duration-300 rounded-2xl  border-[3px] border-[#F8860D] flex flex-col justify-center items-center text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-20 h-20 text-[#FF2600] hover:scale-110 duration-300"
+              class="w-20 h-20 text-[#F8860D] hover:scale-110 duration-300"
             >
               <path
                 stroke-linecap="round"
@@ -119,25 +119,25 @@ const BoschPage = () => {
               />
             </svg>
 
-            <h1 className="text-xl mt-2 font-bold text-[#FF2600]">
+            <h1 className="text-xl mt-2 font-bold text-[#F8860D]">
               Customer Satisfaction
             </h1>
 
-            <h1 className="p-2 md:p-2 font-bold text-[#FF2600]">
+            <h1 className="p-2 md:p-2 font-bold text-[#F8860D]">
               We maintain a professional workflow for excellent customer
               relationships.
             </h1>
           </div>
         </div>
         <div className="w-full p-4   md:w-[300px] h-[300px]">
-          <div className="w-full h-[250px] drop-shadow-xl bg-[#171717] border-[3px] border-[#FF2600] md:hover:scale-110 duration-300 rounded-2xl  border-grey flex flex-col justify-center items-center text-center">
+          <div className="w-full h-[250px] drop-shadow-xl bg-[#171717] border-[3px] border-[#F8860D] md:hover:scale-110 duration-300 rounded-2xl  border-grey flex flex-col justify-center items-center text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-20 h-20 text-[#FF2600] hover:scale-110 duration-300"
+              class="w-20 h-20 text-[#F8860D] hover:scale-110 duration-300"
             >
               <path
                 stroke-linecap="round"
@@ -146,11 +146,11 @@ const BoschPage = () => {
               />
             </svg>
 
-            <h1 className="text-xl mt-2 font-bold text-[#FF2600]">
+            <h1 className="text-xl mt-2 font-bold text-[#F8860D]">
               High Quality Service
             </h1>
 
-            <h1 className="p-2 md:p-2 font-bold text-[#FF2600]">
+            <h1 className="p-2 md:p-2 font-bold text-[#F8860D]">
               We Provide Top Notch High Quality Repairing Services for All
               brands Appliances Appliances.
             </h1>
@@ -166,7 +166,7 @@ const BoschPage = () => {
               className="sm:w-[full] md:max-w-sm sm:h-full md:px-0 px-5 ml-[-8px] md:ml-0  md:mx-0 rounded-xl drop-shadow-2xl"
             />
             <div>
-              <h1 className="text-3xl mt-3 md:mt-0 md:text-5xl font-bold text-[#FF2600]">
+              <h1 className="text-3xl mt-3 md:mt-0 md:text-5xl font-bold text-[#F8860D]">
                 "Welcome to the realm of appliance repair solutions!"
               </h1>
               <p className="py-6 font-semibold text-white">
@@ -182,7 +182,7 @@ const BoschPage = () => {
                 excellence with us."
               </p>
               <button
-                className="btn btn-info-content bg-[#FF2600]  text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
+                className="btn btn-info-content bg-[#F8860D]  text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
                 onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
                 }}
@@ -197,7 +197,7 @@ const BoschPage = () => {
       <div className="hero bg-[#171717]">
         <div className="flex flex-wrap px-2 md:px-10 justify-center lg:justify-between items-center py-5 w-full max-w-6xl gap-1">
           <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#171717]">
-            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#FF2600] rounded-2xl  md:mb-0 md:mt-0">
+            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#F8860D] rounded-2xl  md:mb-0 md:mt-0">
               <div className="stat-figure text-secondary">
                 <div className="h-[40px] w-[40px] md:w-[30px] md:ml-[-30px] ">
                   <Image
@@ -208,15 +208,15 @@ const BoschPage = () => {
                   />
                 </div>
               </div>
-              <div className="stat-title text-[#FF2600]">More Than</div>
-              <div className="stat-value text-[#FF2600]">2000+</div>
-              <div className="stat-desc text-[#FF2600]">
+              <div className="stat-title text-[#F8860D]">More Than</div>
+              <div className="stat-value text-[#F8860D]">2000+</div>
+              <div className="stat-desc text-[#F8860D]">
                 Washing Machines Repaired
               </div>
             </div>
           </div>
           <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#171717]">
-            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#FF2600] rounded-2xl mt-2  md:mb-0 md:mt-0">
+            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#F8860D] rounded-2xl mt-2  md:mb-0 md:mt-0">
               <div className="stat-figure text-primary">
                 <div className="h-[40px] w-[40px] md:w-[30px] md:ml-[-30px] ">
                   <Image
@@ -227,15 +227,15 @@ const BoschPage = () => {
                   />
                 </div>
               </div>
-              <div className="stat-title text-[#FF2600]">More Than</div>
-              <div className="stat-value text-[#FF2600]">3000+</div>
-              <div className="stat-desc text-[#FF2600]">
+              <div className="stat-title text-[#F8860D]">More Than</div>
+              <div className="stat-value text-[#F8860D]">3000+</div>
+              <div className="stat-desc text-[#F8860D]">
                 Dishwasher Repaired
               </div>
             </div>
           </div>
           <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#171717]">
-            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#FF2600] rounded-2xl mt-2  md:mb-0 md:mt-0">
+            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#F8860D] rounded-2xl mt-2  md:mb-0 md:mt-0">
               <div className="stat-figure text-secondary">
                 <div className="h-[40px] w-[40px] md:w-[30px] md:ml-[-30px] ">
                   <Image
@@ -246,13 +246,13 @@ const BoschPage = () => {
                   />
                 </div>
               </div>
-              <div className="stat-title text-[#FF2600]">More than</div>
-              <div className="stat-value text-[#FF2600]">1700+</div>
-              <div className="stat-desc text-[#FF2600]">Dryer Repaired</div>
+              <div className="stat-title text-[#F8860D]">More than</div>
+              <div className="stat-value text-[#F8860D]">1700+</div>
+              <div className="stat-desc text-[#F8860D]">Dryer Repaired</div>
             </div>
           </div>
           <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#171717]">
-            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#FF2600] rounded-2xl mt-2 mb-2 md:mb-0 md:mt-0">
+            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#F8860D] rounded-2xl mt-2 mb-2 md:mb-0 md:mt-0">
               <div className="stat-figure text-secondary">
                 <div className="h-[40px] w-[40px] md:w-[30px] md:ml-[-30px] ">
                   <Image
@@ -263,9 +263,9 @@ const BoschPage = () => {
                   />
                 </div>
               </div>
-              <div className="stat-title text-[#FF2600]">More than</div>
-              <div className="stat-value text-[#FF2600]">2100+</div>
-              <div className="stat-desc text-[#FF2600]">
+              <div className="stat-title text-[#F8860D]">More than</div>
+              <div className="stat-value text-[#F8860D]">2100+</div>
+              <div className="stat-desc text-[#F8860D]">
                 stove/Cooker Repaired
               </div>
             </div>
@@ -276,8 +276,8 @@ const BoschPage = () => {
       <div className="w-full h-[40px] bg-[#202020] " />
       <div className="w-full h-[120px] flex bg-[#202020]  justify-center mt-[-2px]">
         <div className="w-[500px]  h-[80px] md:h-full  flex flex-col text-center align-middle">
-          <h5 className="text-base text-[#FF2600] font-bold ">Our Services</h5>
-          <h1 className="text-3xl text-[#FF2600] font-extrabold">
+          <h5 className="text-base text-[#F8860D] font-bold ">Our Services</h5>
+          <h1 className="text-3xl text-[#F8860D] font-extrabold">
             We are Expert In Repairing of!
           </h1>
         </div>
@@ -315,7 +315,7 @@ const BoschPage = () => {
 
                 <div className="card-actions justify-end">
                   <button
-                    className="btn btn-neutral bg-[#FF2600] hover:scale-110 duration-300 text-white hover:bg-white mt-3  "
+                    className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-white hover:bg-white mt-3  "
                     onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
                     }}
@@ -358,7 +358,7 @@ const BoschPage = () => {
 
                 <div className="card-actions justify-end">
                   <button
-                    className="btn btn-neutral bg-[#FF2600] hover:scale-110 duration-300 text-white hover:bg-white mt-3  "
+                    className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-white hover:bg-white mt-3  "
                     onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
                     }}
@@ -402,7 +402,7 @@ const BoschPage = () => {
 
                 <div className="card-actions justify-end">
                   <button
-                    className="btn btn-neutral bg-[#FF2600] hover:scale-110 duration-300 text-white hover:bg-white mt-3  "
+                    className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-white hover:bg-white mt-3  "
                     onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
                     }}
@@ -446,7 +446,7 @@ const BoschPage = () => {
 
                 <div className="card-actions justify-end">
                   <button
-                    className="btn btn-neutral bg-[#FF2600] hover:scale-110 duration-300 text-white hover:bg-white mt-3  "
+                    className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-white hover:bg-white mt-3  "
                     onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
                     }}
