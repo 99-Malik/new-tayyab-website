@@ -37,8 +37,7 @@ const BoschPage = () => {
               "RepairHomeUAE is your premier Home Appliances Repair Service
               Center serving Dubai and Abu Dhabi. Count on our highly-trained
               technicians for expert and dependable repairs of washing machines,
-              dishwashers, dryers, and stove/cooking ranges. We proudly carry
-              official authorization from these brands, ensuring your appliances
+              dishwashers, dryers, and stove/cooking ranges.Ensuring your appliances
               receive the skilled care they deserve."
             </p>
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
@@ -74,9 +73,9 @@ const BoschPage = () => {
         </div>
       </div>
 
-      <div className="w-auto mt-[-2px] bg-[#202020]  md:mx-0 md:w-full h-auto md:h-auto  flex flex-col md:flex-row justify-evenly items-center ">
+      <div className="w-auto mt-[-2px] bg-[#2c2a2a]  md:mx-0 md:w-full h-auto md:h-auto  flex flex-col md:flex-row justify-evenly items-center ">
         <div className="w-full p-4 md:w-[300px] h-[300px]">
-          <div className="w-full   drop-shadow-3xl h-[250px] md:hover:scale-110 duration-300  bg-[#171717] rounded-2xl border-[3px] border-[#F8860D]  flex flex-col justify-center items-center text-center">
+          <div className="w-full   drop-shadow-3xl h-[250px] md:hover:scale-110 duration-300  bg-[#2c2a2a] rounded-2xl border-[3px] border-[#F8860D]  flex flex-col justify-center items-center text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -103,7 +102,7 @@ const BoschPage = () => {
         </div>
 
         <div className="w-full p-4   md:w-[300px] h-[300px]">
-          <div className="w-full h-[250px] drop-shadow-xl  bg-[#171717] md:hover:scale-110 duration-300 rounded-2xl  border-[3px] border-[#F8860D]  flex flex-col justify-center items-center text-center">
+          <div className="w-full h-[250px] drop-shadow-xl  bg-[#2c2a2a] md:hover:scale-110 duration-300 rounded-2xl  border-[3px] border-[#F8860D]  flex flex-col justify-center items-center text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -130,7 +129,7 @@ const BoschPage = () => {
           </div>
         </div>
         <div className="w-full p-4   md:w-[300px] h-[300px]">
-          <div className="w-full h-[250px] drop-shadow-xl bg-[#171717] border-[3px] border-[#F8860D]  md:hover:scale-110 duration-300 rounded-2xl  border-grey flex flex-col justify-center items-center text-center">
+          <div className="w-full h-[250px] drop-shadow-xl bg-[#2c2a2a] border-[3px] border-[#F8860D]  md:hover:scale-110 duration-300 rounded-2xl  border-grey flex flex-col justify-center items-center text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -273,8 +272,8 @@ const BoschPage = () => {
         </div>
       </div>
       {/* Hero Section 3 */}
-      <div className="w-full h-[40px] bg-[#202020] " />
-      <div className="w-full h-[120px] flex bg-[#202020]  justify-center mt-[-2px]">
+      <div className="w-full h-[40px] bg-[#2c2a2a]" />
+      <div className="w-full h-[120px] flex bg-[#2c2a2a] justify-center mt-[-2px]">
         <div className="w-[500px]  h-[80px] md:h-full  flex flex-col text-center align-middle">
           <h5 className="text-base text-[#F8860D] font-bold ">Our Services</h5>
           <h1 className="text-3xl text-[#F8860D] font-extrabold">
@@ -300,7 +299,7 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#202020]">
+              <div className="card-body bg-[#2c2a2a]">
                 <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
                   Washing Machine Repair
                 </h2>
@@ -344,7 +343,7 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#202020]">
+              <div className="card-body bg-[#2c2a2a]">
                 <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
                   Washing Dryer Repair
                 </h2>
@@ -388,7 +387,7 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#202020]">
+              <div className="card-body bg-[#2c2a2a]">
                 <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
                   Dishwasher Repair
                 </h2>
@@ -430,7 +429,7 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#202020]">
+              <div className="card-body bg-[#2c2a2a]">
                 <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
                   Gas Cooker/Stove Repair
                 </h2>
@@ -458,7 +457,7 @@ all your gas cooker/stove repair needs."
         </div>
       </div>
       {/* Footer */}
-      <Footer color="#219ACD" />
+      
     </div>
   );
 };
