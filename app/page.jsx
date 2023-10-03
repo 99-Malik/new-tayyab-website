@@ -15,7 +15,7 @@ const BoschPage = () => {
       {/* MAIN SECTION */}
 
       <div className="hero min-h-screen bg-[url(/images/backgrounds/2.jpg)] bg-fixed">
-        <div className="hero-overlay bg-black bg-opacity-70" />
+        <div className="hero-overlay bg-black bg-opacity-50" />
         <div
           className="hero-content flex-col-reverse lg:flex-row-reverse mt-20 md:mt-10"
           style={{ zIndex: 0 }}
@@ -62,8 +62,8 @@ const BoschPage = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-[40px] bg-[#202020]" />
-      <div className="w-full h-[100px] flex bg-[#202020] justify-center mt-[-2px]">
+      <div className="w-full h-[40px] bg-[#333333]" />
+      <div className="w-full h-[100px] flex bg-[#333333] justify-center mt-[-2px]">
         <div className="w-[500px]  h-[80px] md:h-full  flex flex-col text-center align-middle">
           <h5 className="text-base text-[#F8860D] font-bold ">
             We Commit Quality Repairing
@@ -74,9 +74,9 @@ const BoschPage = () => {
         </div>
       </div>
 
-      <div className="w-auto mt-[-2px] bg-[#202020]  md:mx-0 md:w-full h-auto md:h-auto  flex flex-col md:flex-row justify-evenly items-center ">
+      <div className="w-auto mt-[-2px] bg-[#333333] md:mx-0 md:w-full h-auto md:h-auto  flex flex-col md:flex-row justify-evenly items-center ">
         <div className="w-full p-4 md:w-[300px] h-[300px]">
-          <div className="w-full   drop-shadow-3xl h-[250px] md:hover:scale-110 duration-300  bg-[#171717] rounded-2xl border-[3px] border-[#F8860D] flex flex-col justify-center items-center text-center">
+          <div className="w-full   drop-shadow-3xl h-[250px] md:hover:scale-110 duration-300  bg-[#333333] rounded-2xl border-[3px] border-[#F8860D] flex flex-col justify-center items-center text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -103,7 +103,7 @@ const BoschPage = () => {
         </div>
 
         <div className="w-full p-4   md:w-[300px] h-[300px]">
-          <div className="w-full h-[250px] drop-shadow-xl  bg-[#171717] md:hover:scale-110 duration-300 rounded-2xl  border-[3px] border-[#F8860D] flex flex-col justify-center items-center text-center">
+          <div className="w-full h-[250px] drop-shadow-xl  bg-[#333333] md:hover:scale-110 duration-300 rounded-2xl  border-[3px] border-[#F8860D] flex flex-col justify-center items-center text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -130,7 +130,7 @@ const BoschPage = () => {
           </div>
         </div>
         <div className="w-full p-4   md:w-[300px] h-[300px]">
-          <div className="w-full h-[250px] drop-shadow-xl bg-[#171717] border-[3px] border-[#F8860D] md:hover:scale-110 duration-300 rounded-2xl  border-grey flex flex-col justify-center items-center text-center">
+          <div className="w-full h-[250px] drop-shadow-xlbg-[#333333] border-[3px] border-[#F8860D] md:hover:scale-110 duration-300 rounded-2xl  border-grey flex flex-col justify-center items-center text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -157,9 +157,9 @@ const BoschPage = () => {
           </div>
         </div>
       </div>
-      <div className=" w-full bg-black h-auto   ">
+      <div className=" w-full bg-[#333333] h-auto   ">
         <div className="hero min-h-screen bg-[#fafafa] bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
-          <div className="hero-overlay bg-black bg-opacity-70" />
+          <div className="hero-overlay bg-[#333333] bg-opacity-60" />
           <div className="hero-content  flex-col lg:flex-row-reverse ">
             <img
               src="/images/2.jpg"
@@ -194,10 +194,10 @@ const BoschPage = () => {
         </div>
       </div>
       {/* STATS */}
-      <div className="hero bg-[#171717]">
+      <div className="hero bg-[#333333]">
         <div className="flex flex-wrap px-2 md:px-10 justify-center lg:justify-between items-center py-5 w-full max-w-6xl gap-1">
-          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#171717]">
-            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#F8860D] rounded-2xl  md:mb-0 md:mt-0">
+          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#333333]">
+            <div className="stat place-items-center bg-[#333333] border-[3px] border-[#F8860D] rounded-2xl  md:mb-0 md:mt-0">
               <div className="stat-figure text-secondary">
                 <div className="h-[40px] w-[40px] md:w-[30px] md:ml-[-30px] ">
                   <Image
@@ -215,8 +215,8 @@ const BoschPage = () => {
               </div>
             </div>
           </div>
-          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#171717]">
-            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#F8860D] rounded-2xl mt-2  md:mb-0 md:mt-0">
+          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#333333]">
+            <div className="stat place-items-center #333333border-[3px] border-[#F8860D] rounded-2xl mt-2  md:mb-0 md:mt-0">
               <div className="stat-figure text-primary">
                 <div className="h-[40px] w-[40px] md:w-[30px] md:ml-[-30px] ">
                   <Image
@@ -234,8 +234,8 @@ const BoschPage = () => {
               </div>
             </div>
           </div>
-          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#171717]">
-            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#F8860D] rounded-2xl mt-2  md:mb-0 md:mt-0">
+          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg=[#333333]">
+            <div className="stat place-items-center bg=[#333333] border-[3px] border-[#F8860D] rounded-2xl mt-2  md:mb-0 md:mt-0">
               <div className="stat-figure text-secondary">
                 <div className="h-[40px] w-[40px] md:w-[30px] md:ml-[-30px] ">
                   <Image
@@ -251,8 +251,8 @@ const BoschPage = () => {
               <div className="stat-desc text-[#F8860D]">Dryer Repaired</div>
             </div>
           </div>
-          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#171717]">
-            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#F8860D] rounded-2xl mt-2 mb-2 md:mb-0 md:mt-0">
+          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg=[#333333]">
+            <div className="stat place-items-center bg=[#333333] border-[3px] border-[#F8860D] rounded-2xl mt-2 mb-2 md:mb-0 md:mt-0">
               <div className="stat-figure text-secondary">
                 <div className="h-[40px] w-[40px] md:w-[30px] md:ml-[-30px] ">
                   <Image
@@ -273,8 +273,8 @@ const BoschPage = () => {
         </div>
       </div>
       {/* Hero Section 3 */}
-      <div className="w-full h-[40px] bg-[#202020] " />
-      <div className="w-full h-[120px] flex bg-[#202020]  justify-center mt-[-2px]">
+      <div className="w-full h-[40px] bg-[#333333] " />
+      <div className="w-full h-[120px] flex bg-[#333333]  justify-center mt-[-2px]">
         <div className="w-[500px]  h-[80px] md:h-full  flex flex-col text-center align-middle">
           <h5 className="text-base text-[#F8860D] font-bold ">Our Services</h5>
           <h1 className="text-3xl text-[#F8860D] font-extrabold">
@@ -289,7 +289,7 @@ const BoschPage = () => {
           <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
-                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-80 ">
+                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-60 ">
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/washing.svg"
@@ -300,7 +300,7 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#202020]">
+              <div className="card-body bg-[#333333]">
                 <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
                   Washing Machine Repair
                 </h2>
@@ -333,7 +333,7 @@ const BoschPage = () => {
           <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
-                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-80 ">
+                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-60 ">
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/dryer.svg"
@@ -344,7 +344,7 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#202020]">
+              <div className="card-body bg-[#333333]">
                 <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
                   Washing Dryer Repair
                 </h2>
@@ -376,7 +376,7 @@ const BoschPage = () => {
           <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
-                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-80 ">
+                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-60 ">
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/dishwasher.svg"
@@ -387,7 +387,7 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#202020]">
+              <div className="card-body bg-[#333333]">
                 <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
                   Dishwasher Repair
                 </h2>
@@ -420,7 +420,7 @@ const BoschPage = () => {
           <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
-                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-80 ">
+                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-60 ">
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/stove.svg"
@@ -431,7 +431,7 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#202020]">
+              <div className="card-body bg-[#333333]">
                 <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
                   Gas Cooker/Stove Repair
                 </h2>

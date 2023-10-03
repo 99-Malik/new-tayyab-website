@@ -22,7 +22,7 @@ const ContactPage = () => {
 
 
     <div className="hero min-h-screen bg-[url(/images/backgrounds/2.jpg)] bg-fixed mt-[-10px]">
-    <div className="hero-overlay bg-black bg-opacity-70" />
+    <div className="hero-overlay bg-black bg-opacity-60" />
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left md:ml-10">
           <h1 className="text-5xl font-bold text-[#F8860D]">Contact Us!</h1>
@@ -31,7 +31,7 @@ const ContactPage = () => {
             today! <br /> We are available 24/7 to serve you.
           </p>
         </div>
-        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-[#202020]">
+        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-[#333333]">
           <div className="card-body">
             <div className="flex gap-3 flex-col">
               <p className="text-[#F8860D] font-bold">Call us on: </p>

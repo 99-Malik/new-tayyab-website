@@ -12,19 +12,9 @@ import { NavigationEvents } from "../components/navigation-events";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
-  title: "Quick Appliance Repair | Home Appliance Repair Service",
+  title: "  RepairHomeUAE | Home Appliance Repair Service",
   description:
-    "Quick Appliances Repairs is a leading home appliance repair company in Dubai and Abu Dhabi. We offer repair services for Samsung, Bosch, Lg and Siemens appliances.",
-  keywords: [
-    "Bosch Service Center",
-    "Lg Service Center",
-    "Samsung Service Center",
-    "Siemens Service Center",
-    "Bosch Repair Center",
-    "Lg Repair Center",
-    "Samsung Repair Center",
-    "Siemens Repair Center",
-  ],
+    "RepairHomeUAE is a leading home appliance repair company in Dubai and Abu Dhabi. We offer repair services for Samsung, Bosch, Lg and Siemens appliances.",
   creator: "cyhammad",
 };
 
