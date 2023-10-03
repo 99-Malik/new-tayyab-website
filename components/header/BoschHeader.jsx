@@ -118,7 +118,7 @@ const BoschHeader = () => {
                 </ul>}
             </div>
             <Link
-              href="/companies/bosch"
+              href="#"
               className="btn btn-ghost normal-case sm:text-lg px-1"
             >
               <svg
