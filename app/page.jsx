@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import React from "react";
-import BoschHeader from "../components/header/BoschHeader";
-import CallOrWhatsappButton from "../components/buttons/CallOrWhatsappButton";
-import phoneNumber from "../content/phoneNumber";
-import ServicesSection from "../components/sections/ServicesSection";
-import Footer from "../components/footer/Footer";
-import Image from "next/image";
+import React from 'react';
+import BoschHeader from '../components/header/BoschHeader';
+import CallOrWhatsappButton from '../components/buttons/CallOrWhatsappButton';
+import phoneNumber from '../content/phoneNumber';
+import ServicesSection from '../components/sections/ServicesSection';
+import Footer from '../components/footer/samsungFooter';
+import Image from 'next/image';
 
 const BoschPage = () => {
   return (
@@ -15,10 +15,10 @@ const BoschPage = () => {
       {/* MAIN SECTION */}
 
       <div className="hero min-h-screen bg-[url(/images/backgrounds/2.jpg)] bg-fixed">
-        <div className="hero-overlay bg-black bg-opacity-50" />
+        <div className="hero-overlay bg-black bg-opacity-70" />
         <div
           className="hero-content flex-col-reverse lg:flex-row-reverse mt-20 md:mt-10"
-          style={{ zIndex: 0 }}
+          style={{zIndex: 0}}
         >
           <Image
             src="/images/fridge/washing.jpg"
@@ -30,7 +30,7 @@ const BoschPage = () => {
             <h1 className="text-4xl  font-raleway text-white leading-tight">
               <span className="text-[#F8860D] font-bold">
                 RepairHomeUAE
-              </span>{" "}
+              </span>{' '}
               <span>Appliances Service Center</span>
             </h1>
             <p className="py-6 text-lg font-raleway text-white">
@@ -43,7 +43,7 @@ const BoschPage = () => {
             </p>
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
               <button
-                className="px-5 py-4 bg-[#F8860D]  hover:scale-110  text-black font-bold hover:bg-[white] hover:text-black hover:font-bold rounded-lg duration-200 shadow-md"
+                className="px-5 py-4 bg-[#F8860D] hover:scale-110  text-black font-bold hover:bg-[white] hover:text-black hover:font-bold rounded-lg duration-200 shadow-md"
                 onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
                 }}
@@ -51,7 +51,7 @@ const BoschPage = () => {
                 {phoneNumber}
               </button>
               <button
-                className="px-5 py-4 bg-[#F8860D]  hover:scale-110  text-black font-bold hover:bg-[white] hover:text-black hover:font-bold rounded-lg duration-200 shadow-md"
+                className="px-5 py-4 bg-[#F8860D] hover:scale-110  text-black font-bold hover:bg-[white] hover:text-black hover:font-bold rounded-lg duration-200 shadow-md"
                 onClick={() => {
                   window.location.href = `//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`;
                 }}
@@ -62,8 +62,8 @@ const BoschPage = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-[40px] bg-[#333333]" />
-      <div className="w-full h-[100px] flex bg-[#333333] justify-center mt-[-2px]">
+      <div className="w-full h-[40px] bg-[#202020]" />
+      <div className="w-full h-[100px] flex bg-[#202020] justify-center mt-[-2px]">
         <div className="w-[500px]  h-[80px] md:h-full  flex flex-col text-center align-middle">
           <h5 className="text-base text-[#F8860D] font-bold ">
             We Commit Quality Repairing
@@ -74,9 +74,9 @@ const BoschPage = () => {
         </div>
       </div>
 
-      <div className="w-auto mt-[-2px] bg-[#333333] md:mx-0 md:w-full h-auto md:h-auto  flex flex-col md:flex-row justify-evenly items-center ">
+      <div className="w-auto mt-[-2px] bg-[#202020]  md:mx-0 md:w-full h-auto md:h-auto  flex flex-col md:flex-row justify-evenly items-center ">
         <div className="w-full p-4 md:w-[300px] h-[300px]">
-          <div className="w-full   drop-shadow-3xl h-[250px] md:hover:scale-110 duration-300  bg-[#333333] rounded-2xl border-[3px] border-[#F8860D] flex flex-col justify-center items-center text-center">
+          <div className="w-full   drop-shadow-3xl h-[250px] md:hover:scale-110 duration-300  bg-[#171717] rounded-2xl border-[3px] border-[#F8860D]  flex flex-col justify-center items-center text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -103,7 +103,7 @@ const BoschPage = () => {
         </div>
 
         <div className="w-full p-4   md:w-[300px] h-[300px]">
-          <div className="w-full h-[250px] drop-shadow-xl  bg-[#333333] md:hover:scale-110 duration-300 rounded-2xl  border-[3px] border-[#F8860D] flex flex-col justify-center items-center text-center">
+          <div className="w-full h-[250px] drop-shadow-xl  bg-[#171717] md:hover:scale-110 duration-300 rounded-2xl  border-[3px] border-[#F8860D]  flex flex-col justify-center items-center text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -130,7 +130,7 @@ const BoschPage = () => {
           </div>
         </div>
         <div className="w-full p-4   md:w-[300px] h-[300px]">
-          <div className="w-full h-[250px] drop-shadow-xlbg-[#333333] border-[3px] border-[#F8860D] md:hover:scale-110 duration-300 rounded-2xl  border-grey flex flex-col justify-center items-center text-center">
+          <div className="w-full h-[250px] drop-shadow-xl bg-[#171717] border-[3px] border-[#F8860D]  md:hover:scale-110 duration-300 rounded-2xl  border-grey flex flex-col justify-center items-center text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -157,9 +157,9 @@ const BoschPage = () => {
           </div>
         </div>
       </div>
-      <div className=" w-full bg-[#333333] h-auto   ">
+      <div className=" w-full bg-black h-auto   ">
         <div className="hero min-h-screen bg-[#fafafa] bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
-          <div className="hero-overlay bg-[#333333] bg-opacity-60" />
+          <div className="hero-overlay bg-black bg-opacity-70" />
           <div className="hero-content  flex-col lg:flex-row-reverse ">
             <img
               src="/images/2.jpg"
@@ -182,7 +182,7 @@ const BoschPage = () => {
                 excellence with us."
               </p>
               <button
-                className="btn btn-info-content bg-[#F8860D]  text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
+                className="btn btn-info-content bg-[#F8860D] text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
                 onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
                 }}
@@ -194,10 +194,10 @@ const BoschPage = () => {
         </div>
       </div>
       {/* STATS */}
-      <div className="hero bg-[#333333]">
+      <div className="hero bg-[#171717]">
         <div className="flex flex-wrap px-2 md:px-10 justify-center lg:justify-between items-center py-5 w-full max-w-6xl gap-1">
-          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#333333]">
-            <div className="stat place-items-center bg-[#333333] border-[3px] border-[#F8860D] rounded-2xl  md:mb-0 md:mt-0">
+          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#171717]">
+            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#F8860D] rounded-2xl  md:mb-0 md:mt-0">
               <div className="stat-figure text-secondary">
                 <div className="h-[40px] w-[40px] md:w-[30px] md:ml-[-30px] ">
                   <Image
@@ -215,8 +215,8 @@ const BoschPage = () => {
               </div>
             </div>
           </div>
-          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#333333]">
-            <div className="stat place-items-center #333333border-[3px] border-[#F8860D] rounded-2xl mt-2  md:mb-0 md:mt-0">
+          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#171717]">
+            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#F8860D] rounded-2xl mt-2  md:mb-0 md:mt-0">
               <div className="stat-figure text-primary">
                 <div className="h-[40px] w-[40px] md:w-[30px] md:ml-[-30px] ">
                   <Image
@@ -234,8 +234,8 @@ const BoschPage = () => {
               </div>
             </div>
           </div>
-          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg=[#333333]">
-            <div className="stat place-items-center bg=[#333333] border-[3px] border-[#F8860D] rounded-2xl mt-2  md:mb-0 md:mt-0">
+          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#171717]">
+            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#F8860D] rounded-2xl mt-2  md:mb-0 md:mt-0">
               <div className="stat-figure text-secondary">
                 <div className="h-[40px] w-[40px] md:w-[30px] md:ml-[-30px] ">
                   <Image
@@ -251,8 +251,8 @@ const BoschPage = () => {
               <div className="stat-desc text-[#F8860D]">Dryer Repaired</div>
             </div>
           </div>
-          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg=[#333333]">
-            <div className="stat place-items-center bg=[#333333] border-[3px] border-[#F8860D] rounded-2xl mt-2 mb-2 md:mb-0 md:mt-0">
+          <div className="stats shadow w-full max-w-[280px] md:w-[250px] bg-[#171717]">
+            <div className="stat place-items-center bg-[#171717] border-[3px] border-[#F8860D] rounded-2xl mt-2 mb-2 md:mb-0 md:mt-0">
               <div className="stat-figure text-secondary">
                 <div className="h-[40px] w-[40px] md:w-[30px] md:ml-[-30px] ">
                   <Image
@@ -273,12 +273,12 @@ const BoschPage = () => {
         </div>
       </div>
       {/* Hero Section 3 */}
-      <div className="w-full h-[40px] bg-[#333333] " />
-      <div className="w-full h-[120px] flex bg-[#333333]  justify-center mt-[-2px]">
+      <div className="w-full h-[40px] bg-[#202020] " />
+      <div className="w-full h-[120px] flex bg-[#202020]  justify-center mt-[-2px]">
         <div className="w-[500px]  h-[80px] md:h-full  flex flex-col text-center align-middle">
           <h5 className="text-base text-[#F8860D] font-bold ">Our Services</h5>
           <h1 className="text-3xl text-[#F8860D] font-extrabold">
-            We are Expert In Repairing of!
+            Expert In Repairing of!
           </h1>
         </div>
       </div>
@@ -289,7 +289,7 @@ const BoschPage = () => {
           <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
-                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-60 ">
+                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-80 ">
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/washing.svg"
@@ -300,7 +300,7 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#333333]">
+              <div className="card-body bg-[#202020]">
                 <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
                   Washing Machine Repair
                 </h2>
@@ -333,7 +333,7 @@ const BoschPage = () => {
           <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
-                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-60 ">
+                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-80 ">
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/dryer.svg"
@@ -344,15 +344,16 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#333333]">
+              <div className="card-body bg-[#202020]">
                 <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
                   Washing Dryer Repair
                 </h2>
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
-                    "Delivering top-tier, professional solutions that ensure the
-                    optimal performance of your dryer. Our Dryer Repair Service
-                    is your trusted partner for all your dryer repair needs."
+
+                    "Delivering top-tier, professional solutions that ensure
+                    the optimal performance of your dryer. Our Dryer Repair Service is your trusted partner for
+                    all your dryer repair needs."
                   </p>
                 </div>
 
@@ -376,7 +377,7 @@ const BoschPage = () => {
           <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
-                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-60 ">
+                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-80 ">
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/dishwasher.svg"
@@ -387,16 +388,14 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#333333]">
+              <div className="card-body bg-[#202020]">
                 <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
                   Dishwasher Repair
                 </h2>
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
-                    "Providing top-notch, expert solutions to ensure the optimal
-                    performance of your dishwasher. Our Dishwasher Repair
-                    Service is your dependable choice for all your dishwasher
-                    repair needs."
+                    "Providing top-notch, expert solutions to ensure the optimal performance of your dishwasher. Our Dishwasher Repair Service is your dependable choice for
+                    all your dishwasher repair needs."
                   </p>
                 </div>
 
@@ -415,12 +414,12 @@ const BoschPage = () => {
           </div>
         </div>
       </div>
-      <div id="stove" className="w-full h-auto flex justify-center mb-10">
+      <div id="washing" className="w-full h-auto flex justify-center">
         <div className="w-full mx-5 md:mx-5 h-auto flex flex-col justify-center items-center">
           <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
-                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-60 ">
+                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-80 ">
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/stove.svg"
@@ -431,16 +430,15 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#333333]">
+              <div className="card-body bg-[#202020]">
                 <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
                   Gas Cooker/Stove Repair
                 </h2>
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
-                    "Delivering top-tier, professional solutions that ensure the
-                    optimal performance of your gas cooker/stove. Our Gas
-                    Cooker/Stove Repair Service is your trusted partner for all
-                    your gas cooker/stove repair needs."
+                    "Delivering top-tier, professional solutions that ensure
+the optimal performance of your gas cooker/stove. Our Gas Cooker/Stove Repair Service is your trusted partner for
+all your gas cooker/stove repair needs."
                   </p>
                 </div>
 
@@ -460,7 +458,7 @@ const BoschPage = () => {
         </div>
       </div>
       {/* Footer */}
-   
+      <Footer color="#219ACD" />
     </div>
   );
 };
