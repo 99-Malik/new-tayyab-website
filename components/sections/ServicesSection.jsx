@@ -4,9 +4,9 @@ import Service from "../Service";
 const ServicesSection = ({ heading, callButtonColor, disableLinks, id }) => {
   return (
     <div className="hero min-h-screen bg-base-100 text-info-content" id={id}>
-      <div className="hero-content text-center w-full h-full">
+      <div className="hero-content text-center  w-full h-full">
         <div className="pb-10 flex flex-col items-center">
-          <h1 className="text-4xl font-bold my-14 max-w-lg">{heading}</h1>
+          <h1 className="text-4xl text-black font-bold my-14 max-w-lg">{heading}</h1>
           <div className="flex flex-wrap gap-5 items-center justify-center">
             <Service
               callButtonColor={callButtonColor}
@@ -14,13 +14,7 @@ const ServicesSection = ({ heading, callButtonColor, disableLinks, id }) => {
               imageUrl="/images/washing/service.jpg"
               description="Delivering top-tier, professional solutions that guarantee the optimal performance of your washing machine."
               disableLink={disableLinks}
-            />
-            <Service
-              callButtonColor={callButtonColor}
-              name="Refrigerator Repair"
-              imageUrl="/images/fridge/service.jpg"
-              disableLink={disableLinks}
-              description="Whether it's a noisy compressor, a torn gasket, or a sealed door issue causing your refrigerator not to freeze properly."
+             
             />
             <Service
               callButtonColor={callButtonColor}
@@ -28,13 +22,6 @@ const ServicesSection = ({ heading, callButtonColor, disableLinks, id }) => {
               imageUrl="/images/stove/service.jpg"
               disableLink={disableLinks}
               description="We offer fast and efficient repairs for all types of stoves and cookers. We only use high quality replacement parts for long lasting."
-            />
-            <Service
-              callButtonColor={callButtonColor}
-              name="Television Repair"
-              imageUrl="/images/tv/service.jpg"
-              disableLink={disableLinks}
-              description="Our professional TV repair service provides expert diagnostics and precise repairs ensuring optimal functionality."
             />
             <Service
               callButtonColor={callButtonColor}

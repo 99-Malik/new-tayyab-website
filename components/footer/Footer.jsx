@@ -1,71 +1,82 @@
-"use client";
-import React from "react";
-import Link from "next/link";
-import { PhoneIcon, WrenchScrewdriverIcon } from "@heroicons/react/24/solid";
-import { usePathname, useRouter } from "next/navigation";
-const Footer = ({ color, company }) => {
-  const pathname = usePathname();
-  const router = useRouter();
-  
-  if (pathname.startsWith("/companies")) {
+'use client';
+import React from 'react';
+import Link from 'next/link';
+import {PhoneIcon, WrenchScrewdriverIcon} from '@heroicons/react/24/solid';
+import {usePathname, useRouter} from 'next/navigation';
+const Footer = ({color, company}) => {
+  const pathname = usePathname ();
+  const router = useRouter ();
+
+  if (pathname.startsWith ('/companies')) {
     return null;
   }
   return (
-    <footer className="footer flex justify-center p-10 bg-info-content text-base-200">
+    <footer className="footer flex justify-center p-10 bg-info-content text-base-200 ">
       <div className="footer w-full max-w-7xl gap-y-10">
         <Link href="/">
           <div
-            className={`flex items-center gap-x-2 text-lg hover:scale-110 duration-300 ${
-              color
-                ? "text-[" + color + "]"
-                : "text-primary-focus hover:text-primary"
-            }`}
+            className={`flex items-center gap-x-2 text-lg hover:scale-110 duration-300 ${color ? 'text-[' + color + ']' : 'text-primary-focus hover:text-primary'}`}
           >
-            <WrenchScrewdriverIcon className=" sm:w-12 sm:h-12 h-5 w-5 " />
-            <span className="">Quick Appliances Repair</span>
+            <div
+              className="btn btn-ghost normal-case sm:text-lg px-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-10 h-10  text-white"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 011.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 01-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 01-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 01.12-1.45l.773-.773a1.125 1.125 0 011.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894z"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+              </svg>
+
+              <h1 className="text-white text-xl">RepairHome</h1>
+              <span>
+                <h1 className="text-[#FF2600] text-xl ml-[-2px] mt-0.5 font-extrabold">
+                  UAE
+                </h1>
+              </span>
+            </div>
           </div>
-          <p className="max-w-lg">
-            a company specializing in appliance repair and maintenance services
-            in Dubai and Abu Dhabi. Our team consists of highly skilled and
-            experienced technicians dedicated to providing professional and
-            reliable service.
+          <p className="max-w-lg p-3">
+            "A company dedicated to excellence in appliance repair and maintenance services
+            in Dubai and Abu Dhabi. Our team comprises skilled and
+            experienced technicians committed to delivering professional and
+            reliable service."
           </p>
         </Link>
         <div>
-          <span className="footer-title">Services</span>
+          <span className="footer-title text-[#FF2600] opacity-100">Services</span>
           <Link
-            href="/services/washing-machine-repair"
+            href="#"
             className="link link-hover"
           >
             Washing Machine Repair
           </Link>
-          <Link
-            href="/services/refrigerator-repair"
-            className="link link-hover"
-          >
-            Refrigerator Repair
-          </Link>
-          <Link href="/services/stovecooker-repair" className="link link-hover">
-            Stove / Cooker Repair
-          </Link>
-          <Link href="/services/television-repair" className="link link-hover">
-            Television Repair
-          </Link>
-          <Link href="/services/dishwasher-repair" className="link link-hover">
+          <Link href="#" className="link link-hover">
             Dishwasher Repair
           </Link>
-          <Link href="/services/dryer-repair" className="link link-hover">
+          <Link href="#" className="link link-hover">
             Dryer Repair
           </Link>
-          <Link href="/services/gas-oven-repair" className="link link-hover">
+          <Link href="#" className="link link-hover">
             Gas Oven Repair
           </Link>
         </div>
         <div>
-          <span className="footer-title">Legal</span>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+          <span className="footer-title text-[#FF2600] opacity-100">Legal</span>
+          <a className="link link-hover" href="/privacyPolicy">PrivacyPolicy</a>
+          <a className="link link-hover" href="/contact">Contact Us</a>
         </div>
       </div>
     </footer>

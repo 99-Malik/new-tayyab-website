@@ -1,6 +1,6 @@
 // "use client";
 
-import Header from "../components/header/Header";
+import Header from "../components/header/BoschHeader";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Footer from "../components/footer/Footer";
@@ -72,13 +72,14 @@ export default function RootLayout({ children }) {
           </a>
           {/* <!--  ClickCease.com tracking--> */}
         </noscript>
-        <Header />
+        <Header className="mt-[-10px]" />
         {children}
+        
         <FixedCallButtons />
-        <Footer />
         <Suspense fallback={null}>
           <NavigationEvents />
         </Suspense>
+        <Footer/>
       </body>
     </html>
   );

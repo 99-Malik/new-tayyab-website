@@ -6,7 +6,7 @@ import Link from "next/link";
 import CallButton from "./buttons/CallButton";
 import { useRouter } from "next/navigation";
 
-const Service = ({ name, imageUrl, description, dark, callButtonColor="default", disableLink }) => {
+const Service = ({ name, imageUrl, description, dark, callButtonColor="bg-[#FF2600]", disableLink }) => {
   const router = useRouter();
   const slugify = (text) => {
     return text
@@ -20,8 +20,8 @@ const Service = ({ name, imageUrl, description, dark, callButtonColor="default",
   };
   return (
     <div
-      className={`card w-60 sm:w-[16rem] ${
-        dark ? "bg-base-100 text-info-content" : "bg-base-100 text-info-content"
+      className={`card w-80 sm:w-[20rem] ${
+        dark ? "bg-[#202020]  text-info-content" : "bg-[#202020] text-white"
       } shadow hover:shadow-md duration-300 rounded-none`}
     >
       <figure
@@ -61,7 +61,14 @@ const Service = ({ name, imageUrl, description, dark, callButtonColor="default",
           {description}
         </p>
         <div className="card-actions justify-end">
-          <CallButton color={callButtonColor} />
+        <button
+                className="btn btn-info-content mt-[10px] bg-[#FF2600]  text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
+                onClick={() => {
+                  window.location.href = `tel:${phoneNumber}`;
+                }}
+              >
+                Call Now
+              </button>
         </div>
       </div>
     </div>
