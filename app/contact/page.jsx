@@ -27,7 +27,7 @@ const ContactPage = () => {
         <div className="text-center lg:text-left md:ml-10">
           <h1 className="text-5xl font-bold text-[#F8860D]">Contact Us!</h1>
           <p className="py-6 text-white text-bold">
-            For all your appliance repair needs, don't hesitate to contact us
+            For all your Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool appliance repair needs, don't hesitate to contact us
             today! <br /> We are available 24/7 to serve you.
           </p>
         </div>
