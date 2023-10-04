@@ -32,7 +32,7 @@ const BoschPage = () => {
               </span>{" "}
               <span>Appliances Service Center</span>
             </h1>
-            <p className="py-2 text-lg font-raleway text-white">
+            <p className=" text-md py-5 px-3 font-raleway text-white">
               "RepairHomeUAE is your premier Samsung,Lg,Bosch,Siemens,Electrolux
               and Whirlpool Home Appliances Repair Service Center serving Dubai
               and Abu Dhabi. Count on our highly-trained technicians for expert
@@ -81,13 +81,13 @@ const BoschPage = () => {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
-              class="w-20 h-20 text-[#F8860D] hover:scale-110 duration-300"
+              className="w-20 h-20 text-[#F8860D] hover:scale-110 duration-300"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
               />
             </svg>
@@ -108,13 +108,13 @@ const BoschPage = () => {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
-              class="w-20 h-20 text-[#F8860D] hover:scale-110 duration-300"
+              className="w-20 h-20 text-[#F8860D] hover:scale-110 duration-300"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5"
               />
             </svg>
@@ -135,13 +135,13 @@ const BoschPage = () => {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
-              class="w-20 h-20 text-[#F8860D] hover:scale-110 duration-300"
+              className="w-20 h-20 text-[#F8860D] hover:scale-110 duration-300"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
               />
             </svg>
@@ -169,10 +169,10 @@ const BoschPage = () => {
               <h1 className="text-3xl mt-3 md:mt-0 md:text-5xl font-bold text-[#F8860D]">
                 "Welcome to the realm of appliance repair solutions!"
               </h1>
-              <p className="py-2 font-semibold text-white">
+              <p className="py-12 text-md px-4 font-semibold text-white">
                 "Discover the pinnacle of appliance repair expertise at
-                RepairHomeUAE, proudly serving
-                Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool appliances
+                RepairHomeUAE, proudly serving Electrolux
+                Samsung,Lg,Bosch,Siemens and Whirlpool appliances
                 repairing in Dubai and Abu Dhabi. We specialize in the repair
                 and maintenance of essential household appliances, including
                 washing machines, dishwashers, dryers, and gas stoves/cookers.
