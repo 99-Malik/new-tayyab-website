@@ -1,24 +1,23 @@
-'use client';
+"use client";
 
-import React from 'react';
-import BoschHeader from '../components/header/BoschHeader';
-import CallOrWhatsappButton from '../components/buttons/CallOrWhatsappButton';
-import phoneNumber from '../content/phoneNumber';
-import ServicesSection from '../components/sections/ServicesSection';
-import Footer from '../components/footer/samsungFooter';
-import Image from 'next/image';
+import React from "react";
+import BoschHeader from "../components/header/BoschHeader";
+import CallOrWhatsappButton from "../components/buttons/CallOrWhatsappButton";
+import phoneNumber from "../content/phoneNumber";
+import ServicesSection from "../components/sections/ServicesSection";
+import Footer from "../components/footer/samsungFooter";
+import Image from "next/image";
 
 const BoschPage = () => {
   return (
     <div className="mt-[-10px]">
-    
       {/* MAIN SECTION */}
 
       <div className="hero min-h-screen bg-[url(/images/backgrounds/2.jpg)] bg-fixed">
         <div className="hero-overlay bg-black bg-opacity-70" />
         <div
           className="hero-content flex-col-reverse lg:flex-row-reverse mt-20 md:mt-10"
-          style={{zIndex: 0}}
+          style={{ zIndex: 0 }}
         >
           <Image
             src="/images/fridge/washing.jpg"
@@ -30,15 +29,17 @@ const BoschPage = () => {
             <h1 className="text-4xl  font-raleway text-white leading-tight">
               <span className="text-[#F8860D] font-bold">
                 RepairHomeUAE
-              </span>{' '}
+              </span>{" "}
               <span>Appliances Service Center</span>
             </h1>
             <p className="py-6 text-lg font-raleway text-white">
               "RepairHomeUAE is your premier Home Appliances Repair Service
               Center serving Dubai and Abu Dhabi. Count on our highly-trained
               technicians for expert and dependable repairs of washing machines,
-              dishwashers, dryers, and stove/cooking ranges.Ensuring your appliances
-              receive the skilled care they deserve."
+              dishwashers, dryers, and stove/cooking ranges.Ensuring your
+              appliances receive the skilled care they deserve." We provide
+              repairing services for Appliances of All brands
+              Samsung,Lg,Bosch,Siemens and Eletcrolux.
             </p>
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
               <button
@@ -306,7 +307,7 @@ const BoschPage = () => {
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that guarantee
-                    the optimal performance of your washing machine. Our Washing
+                    the optimal performance of your Samsung,Lg,Bosch,Siemens and Electrolux washing machine. Our Washing
                     Machine Repair Service is your reliable partner for all your
                     washing machine repair needs."
                   </p>
@@ -349,10 +350,9 @@ const BoschPage = () => {
                 </h2>
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
-
-                    "Delivering top-tier, professional solutions that ensure
-                    the optimal performance of your dryer. Our Dryer Repair Service is your trusted partner for
-                    all your dryer repair needs."
+                    "Delivering top-tier, professional solutions that ensure the
+                    optimal performance of your Samsung,Lg,Bosch,Siemens and Electrolux dryer. Our Dryer Repair Service
+                    is your trusted partner for all your dryer repair needs."
                   </p>
                 </div>
 
@@ -393,8 +393,10 @@ const BoschPage = () => {
                 </h2>
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
-                    "Providing top-notch, expert solutions to ensure the optimal performance of your dishwasher. Our Dishwasher Repair Service is your dependable choice for
-                    all your dishwasher repair needs."
+                    "Providing top-notch, expert solutions to ensure the optimal
+                    performance of your Samsung,Lg,Bosch,Siemens and Electrolux dishwasher. Our Dishwasher Repair
+                    Service is your dependable choice for all your dishwasher
+                    repair needs."
                   </p>
                 </div>
 
@@ -435,9 +437,10 @@ const BoschPage = () => {
                 </h2>
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
-                    "Delivering top-tier, professional solutions that ensure
-the optimal performance of your gas cooker/stove. Our Gas Cooker/Stove Repair Service is your trusted partner for
-all your gas cooker/stove repair needs."
+                    "Delivering top-tier, professional solutions that ensure the
+                    optimal performance of your Samsung,Lg,Bosch,Siemens and Electrolux gas cooker/stove. Our Gas
+                    Cooker/Stove Repair Service is your trusted partner for all
+                    your gas cooker/stove repair needs."
                   </p>
                 </div>
 
@@ -457,7 +460,6 @@ all your gas cooker/stove repair needs."
         </div>
       </div>
       {/* Footer */}
-      
     </div>
   );
 };
