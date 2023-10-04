@@ -32,14 +32,14 @@ const BoschPage = () => {
               </span>{" "}
               <span>Appliances Service Center</span>
             </h1>
-            <p className="py-6 text-lg font-raleway text-white">
-              "RepairHomeUAE is your premier Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool Home Appliances Repair Service
-              Center serving Dubai and Abu Dhabi. Count on our highly-trained
-              technicians for expert and dependable repairs of washing machines,
-              dishwashers, dryers, and stove/cooking ranges.Ensuring your
-              appliances receive the skilled care they deserve." We provide
-              repairing services for Appliances of All brands.
-      
+            <p className="py-5 px-5 text-lg font-raleway text-white">
+              "RepairHomeUAE is your premier Samsung,Lg,Bosch,Siemens,Electrolux
+              and Whirlpool Home Appliances Repair Service Center serving Dubai
+              and Abu Dhabi. Count on our highly-trained technicians for expert
+              and dependable repairs of washing machines, dishwashers, dryers,
+              and stove/cooking ranges.Ensuring your appliances receive the
+              skilled care they deserve." We provide repairing services for
+              Appliances of All brands.
             </p>
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
               <button
@@ -169,17 +169,18 @@ const BoschPage = () => {
               <h1 className="text-3xl mt-3 md:mt-0 md:text-5xl font-bold text-[#F8860D]">
                 "Welcome to the realm of appliance repair solutions!"
               </h1>
-              <p className="py-6 font-semibold text-white">
+              <p className="p-6 font-semibold text-white">
                 "Discover the pinnacle of appliance repair expertise at
-                RepairHomeUAE, proudly serving Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool appliances repairing in Dubai and Abu Dhabi. We
-                specialize in the repair and maintenance of essential household
-                appliances, including washing machines, dishwashers, dryers, and
-                gas stoves/cookers. Our skilled technicians are committed to
-                delivering professional and reliable services, ensuring that
-                your appliances function seamlessly. At RepairHomeUAE, we stand
-                as your trusted partner, providing top-tier solutions to meet
-                your every repair need. Experience the difference in service
-                excellence with us."
+                RepairHomeUAE, proudly serving
+                Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool appliances
+                repairing in Dubai and Abu Dhabi. We specialize in the repair
+                and maintenance of essential household appliances, including
+                washing machines, dishwashers, dryers, and gas stoves/cookers.
+                Our skilled technicians are committed to delivering professional
+                and reliable services, ensuring that your appliances function
+                seamlessly. At RepairHomeUAE, we stand as your trusted partner,
+                providing top-tier solutions to meet your every repair need.
+                Experience the difference in service excellence with us."
               </p>
               <button
                 className="btn btn-info-content bg-[#F8860D] text-white hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
@@ -304,12 +305,13 @@ const BoschPage = () => {
                 <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
                   Washing Machine Repair
                 </h2>
-                <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
+                <div className="sm:w-[200px] text-start text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that guarantee
-                    the optimal performance of your Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool washing machine. Our Washing
-                    Machine Repair Service is your reliable partner for all your
-                    washing machine repair needs."
+                    the optimal performance of your
+                    Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool washing
+                    machine. Our Washing Machine Repair Service is your reliable
+                    partner for all your washing machine repair needs."
                   </p>
                 </div>
 
@@ -351,8 +353,10 @@ const BoschPage = () => {
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that ensure the
-                    optimal performance of your Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool dryer. Our Dryer Repair Service
-                    is your trusted partner for all your dryer repair needs."
+                    optimal performance of your
+                    Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool dryer. Our
+                    Dryer Repair Service is your trusted partner for all your
+                    dryer repair needs."
                   </p>
                 </div>
 
@@ -391,12 +395,12 @@ const BoschPage = () => {
                 <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
                   Dishwasher Repair
                 </h2>
-                <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
+                <div className="sm:w-[170px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Providing top-notch, expert solutions to ensure the optimal
-                    performance of your Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool dishwasher. Our Dishwasher Repair
-                    Service is your dependable choice for all your dishwasher
-                    repair needs."
+                    performance of Samsung,Lg,Bosch,Siemens,Electrolux and
+                    Whirlpool dishwasher. Our Dishwasher Repair Service is your
+                    dependable choice for all your dishwasher repair needs."
                   </p>
                 </div>
 
@@ -438,9 +442,10 @@ const BoschPage = () => {
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that ensure the
-                    optimal performance of your Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool gas cooker/stove. Our Gas
-                    Cooker/Stove Repair Service is your trusted partner for all
-                    your gas cooker/stove repair needs."
+                    optimal performance of your Samsung,Lg,Bosch,Siemens,Electrolux
+                    and Whirlpool gas cooker/stove. Our Gas Cooker/Stove Repair
+                    Service is your trusted partner for all your gas
+                    cooker/stove repair needs."
                   </p>
                 </div>
 

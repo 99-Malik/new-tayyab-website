@@ -1,4 +1,4 @@
-"use"
+"use";
 import React from "react";
 import phoneNumber from "../../content/phoneNumber";
 import { PhoneIcon } from "@heroicons/react/24/outline";
@@ -7,28 +7,27 @@ import BoschHeader from "../../components/header/BoschHeader";
 
 const ContactPage = () => {
   function gtag_report_conversion(url) {
-    var callback = function () {
+    var callback = function() {
       if (typeof url != "undefined") {
         window.location = url;
       }
     };
     gtag("event", "conversion", {
       send_to: "AW-11202272766/sxVbCLOniLwYEP671N0p",
-      event_callback: callback,
+      event_callback: callback
     });
     return false;
   }
   return (
-
-
     <div className="hero min-h-screen bg-[url(/images/backgrounds/2.jpg)] bg-fixed mt-[-10px]">
-    <div className="hero-overlay bg-black bg-opacity-70" />
+      <div className="hero-overlay bg-black bg-opacity-70" />
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left md:ml-10">
           <h1 className="text-5xl font-bold text-[#F8860D]">Contact Us!</h1>
           <p className="py-6 text-white text-bold">
-            For all your Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool appliance repair needs, don't hesitate to contact us
-            today! <br /> We are available 24/7 to serve you.
+            For all your Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool
+            appliance repair needs, don't hesitate to contact us today! <br />{" "}
+            We are available 24/7 to serve you.
           </p>
         </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-[#202020]">
@@ -42,7 +41,9 @@ const ContactPage = () => {
                 <div className="p-4 bg-[#F8860D] rounded-full">
                   <PhoneIcon className="h-6 w-6 text-white" />
                 </div>
-                <div className="text-lg font-medium text-white">{phoneNumber}</div>
+                <div className="text-lg font-medium text-white">
+                  {phoneNumber}
+                </div>
               </a>
               <p className="mt-10 text-[#F8860D] font-bold">Reach us on: </p>
               <div className="flex items-center gap-2 hover:scale-105 duration-300 cursor-pointer">
@@ -65,7 +66,6 @@ const ContactPage = () => {
         </div>
       </div>
     </div>
-    
   );
 };
 
