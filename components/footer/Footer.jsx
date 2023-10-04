@@ -50,7 +50,7 @@ const Footer = ({color, company}) => {
           </div>
           <p className="max-w-lg p-3">
             "A company dedicated to excellence in appliance repair and maintenance services
-           of Samsung,Lg,Bosch,Siemens and Electrolux in Dubai and Abu Dhabi. Our team comprises skilled and
+           of Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool in Dubai and Abu Dhabi. Our team comprises skilled and
             experienced technicians committed to delivering professional and
             reliable service."
           </p>

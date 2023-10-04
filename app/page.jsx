@@ -33,13 +33,13 @@ const BoschPage = () => {
               <span>Appliances Service Center</span>
             </h1>
             <p className="py-6 text-lg font-raleway text-white">
-              "RepairHomeUAE is your premier Home Appliances Repair Service
+              "RepairHomeUAE is your premier Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool Home Appliances Repair Service
               Center serving Dubai and Abu Dhabi. Count on our highly-trained
               technicians for expert and dependable repairs of washing machines,
               dishwashers, dryers, and stove/cooking ranges.Ensuring your
               appliances receive the skilled care they deserve." We provide
-              repairing services for Appliances of All brands
-              Samsung,Lg,Bosch,Siemens and Eletcrolux.
+              repairing services for Appliances of All brands.
+      
             </p>
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
               <button
@@ -171,7 +171,7 @@ const BoschPage = () => {
               </h1>
               <p className="py-6 font-semibold text-white">
                 "Discover the pinnacle of appliance repair expertise at
-                RepairHomeUAE, proudly serving Dubai and Abu Dhabi. We
+                RepairHomeUAE, proudly serving Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool appliances repairing in Dubai and Abu Dhabi. We
                 specialize in the repair and maintenance of essential household
                 appliances, including washing machines, dishwashers, dryers, and
                 gas stoves/cookers. Our skilled technicians are committed to
@@ -307,7 +307,7 @@ const BoschPage = () => {
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that guarantee
-                    the optimal performance of your Samsung,Lg,Bosch,Siemens and Electrolux washing machine. Our Washing
+                    the optimal performance of your Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool washing machine. Our Washing
                     Machine Repair Service is your reliable partner for all your
                     washing machine repair needs."
                   </p>
@@ -351,7 +351,7 @@ const BoschPage = () => {
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that ensure the
-                    optimal performance of your Samsung,Lg,Bosch,Siemens and Electrolux dryer. Our Dryer Repair Service
+                    optimal performance of your Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool dryer. Our Dryer Repair Service
                     is your trusted partner for all your dryer repair needs."
                   </p>
                 </div>
@@ -394,7 +394,7 @@ const BoschPage = () => {
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Providing top-notch, expert solutions to ensure the optimal
-                    performance of your Samsung,Lg,Bosch,Siemens and Electrolux dishwasher. Our Dishwasher Repair
+                    performance of your Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool dishwasher. Our Dishwasher Repair
                     Service is your dependable choice for all your dishwasher
                     repair needs."
                   </p>
@@ -438,7 +438,7 @@ const BoschPage = () => {
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that ensure the
-                    optimal performance of your Samsung,Lg,Bosch,Siemens and Electrolux gas cooker/stove. Our Gas
+                    optimal performance of your Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool gas cooker/stove. Our Gas
                     Cooker/Stove Repair Service is your trusted partner for all
                     your gas cooker/stove repair needs."
                   </p>
