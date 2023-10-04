@@ -32,7 +32,7 @@ const BoschPage = () => {
               </span>{" "}
               <span>Appliances Service Center</span>
             </h1>
-            <p className=" text-md py-5 px-6 font-raleway text-white">
+            <p className=" text-md py-5 font-raleway text-white">
               "RepairHomeUAE is your premier Samsung,Lg,Bosch,Siemens,Electrolux
               and Whirlpool Home Appliances Repair Service Center serving Dubai
               and Abu Dhabi. Count on our highly-trained technicians for expert
