@@ -47,7 +47,7 @@ const BoschHeader = () => {
   }, []);
 
   return (
-    <header style={{zIndex: 50000}}>
+    <header className="mt-[-10px]" style={{zIndex: 50000}}>
       <div className=" flex justify-center py-1 sm:py-0 text-black font-raleway z-50">
         <div
           id="header"
