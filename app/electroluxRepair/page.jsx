@@ -36,14 +36,14 @@ const BoschPage = () => {
               <span className="text-[#F8860D] font-bold">
                 RepairHomeUAE
               </span>{' '}
-              <span>LG Appliances Service Center</span>
+              <span>Electrolux Appliances Service Center</span>
             </h1>
             <p className=" text-md py-5 font-raleway text-white">
-              Repair Home UAE is a LG Service Centre in Dubai
+              Repair Home UAE is a Electrolux Service Centre in Dubai
               and Abu Dhabi. Trust our well-trained technicians to deliver
-              professional & reliable LG repairs ensuring your appliances
-              are in capable hands.LG Dishwasher Repair, Dryer,Washing
-              Machine,LED TV, Microwave and Refrigerator Repair.All LG
+              professional & reliable Electrolux repairs ensuring your appliances
+              are in capable hands.Electrolux Dishwasher Repair, Dryer,Washing
+              Machine,LED TV, Microwave and Refrigerator Repair.All Electrolux
               Reparing Services.
             </p>
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
@@ -156,7 +156,7 @@ const BoschPage = () => {
             </h1>
 
             <h1 className="p-2 md:p-2 font-bold text-[#F8860D]">
-              We Provide Top Notch High Quality Repairing Services for LG
+              We Provide Top Notch High Quality Repairing Services for Electrolux
               Home Appliances.
             </h1>
           </div>
@@ -176,9 +176,7 @@ const BoschPage = () => {
               </h1>
               <p className="py-12 text-md px-4 font-semibold text-white">
                 "Discover the pinnacle of appliance repair expertise at
-                RepairHomeUAE, proudly serving Electrolux
-                LG,Lg,Bosch,Siemens and Whirlpool appliances
-                repairing in Dubai and Abu Dhabi. We specialize in the repair
+                RepairHomeUAE, Electrolux Appliance Repair in Dubai and Abu Dhabi. We specialize in the repair
                 and maintenance of essential household appliances, including
                 washing machines, dishwashers, dryers, and gas stoves/cookers.
                 Our skilled technicians are committed to delivering professional
@@ -230,7 +228,7 @@ const BoschPage = () => {
           </div>
           <div>
             <h1 className="text-4xl font-bold max-w-xl">
-              Welcome To Repair Home UAE LG Service Center
+              Welcome To Repair Home UAE Electrolux Service Center
             </h1>
             <div className="flex gap-10 pt-5 flex-col sm:flex-row">
               <div className="flex items-center gap-1">
@@ -243,23 +241,23 @@ const BoschPage = () => {
               </div>
             </div>
             <p className="py-6 max-w-xl">
-              LG Service Center Dubai is dedicated to providing
-              high-quality service and repairs of LG kitchen appliances. We
-              provide repair services for all kinds of LG kitchen
+              Electrolux Service Center Dubai is dedicated to providing
+              high-quality service and repairs of Electrolux kitchen appliances. We
+              provide repair services for all kinds of Electrolux kitchen
               appliances, including fridges, cooking ranges, dishwashers,
               microwaves, and more. Our experienced technicians are available
               24/7 to provide fast and efficient repairs for both residential
-              and commercial customers. With our reliable LG service center
+              and commercial customers. With our reliable Electrolux service center
               in Dubai, you can rest assured that your appliance will be fixed
               quickly and efficiently with the highest quality parts available.
               We guarantee a fast response time for any repair requests and aim
-              to ensure complete customer.LG appliance repair LG
-              appliance service LG appliance technician LG appliance
-              maintenance LG appliance fix LG refrigerator repair
-              LG washer and dryer repair LG dishwasher repair LG
-              oven and stove repair LG microwave repair LG TV repair
-              LG air conditioner repair LG freezer repair LG
-              range hood repair LG small appliance repair
+              to ensure complete customer.Electrolux appliance repair Electrolux
+              appliance service Electrolux appliance technician Electrolux appliance
+              maintenance Electrolux appliance fix Electrolux refrigerator repair
+              Electrolux washer and dryer repair Electrolux dishwasher repair Electrolux
+              oven and stove repair Electrolux microwave repair Electrolux TV repair
+              Electrolux air conditioner repair Electrolux freezer repair Electrolux
+              range hood repair Electrolux small appliance repair
             </p>
             <div className="divider" />
             <CallOrWhatsappButton />
@@ -311,27 +309,26 @@ const BoschPage = () => {
       <div className="hero min-h-screen bg-base-100">
           <div className="hero-content flex-col lg:flex-row">
             <div>
-              <h1 className="text-4xl font-bold">LG Service Center Abu DHabi</h1>
+              <h1 className="text-4xl font-bold">Electrolux Service Center Abu DHabi</h1>
               <p className="py-6">
-                We provide LG Service Center in Abu Dhabi.The
-                best LG Service Center in Abu Dhabi.We provide
+                We provide Electrolux Service Center in Abu Dhabi.The
+                best Electrolux Service Center in Abu Dhabi.We provide
                 following services:
               </p>
               <ul>
-                <li>LG Service Center</li>
-                <li>LG Repair Center</li>
-                <li>LG Service Center Dubai</li>
-                <li>LG Service Center Abu Dhabi</li>
-                <li>LG Repair Center Dubai</li>
-                <li>LG Repair Center Abu Dhabi</li>
-                <li>LG Washing Machine Repair</li>
-                <li>LG Dishwasher Repair</li>
-                <li>LG Refrigerator Repair</li>
-                <li>LG TV repair</li>
-                <li>LG Dryer repair</li>
-                <li>LG Stove repair</li>
-                <li>LG Cooker repair</li>
-                <li>LG Oven repair</li>
+                <li>Electrolux Service Center</li>
+                <li>Electrolux Repair Center</li>
+                <li>Electrolux Service Center Dubai</li>
+                <li>Electrolux Service Center Abu Dhabi</li>
+                <li>Electrolux Repair Center Dubai</li>
+                <li>Electrolux Repair Center Abu Dhabi</li>
+                <li>Electrolux Washing Machine Repair</li>
+                <li>Electrolux Dishwasher Repair</li>
+                <li>Electrolux Refrigerator Repair</li>
+                <li>Electrolux Dryer repair</li>
+                <li>Electrolux Stove repair</li>
+                <li>Electrolux Cooker repair</li>
+                <li>Electrolux Oven repair</li>
               </ul>
               <div className="flex flex-col mt-6 md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
                 <button
@@ -353,27 +350,26 @@ const BoschPage = () => {
               </div>
             </div>
             <div>
-              <h1 className="text-4xl mt-2 font-bold">LG Service Center Dubai</h1>
+              <h1 className="text-4xl mt-2 font-bold">Electrolux Service Center Dubai</h1>
               <p className="py-6">
-                We provide LG Service Center in Dubai. The best LG
+                We provide Electrolux Service Center in Dubai. The best Electrolux
                 Service Center in Dubai. We provide following
                 services:
               </p>
               <ul>
-                <li>LG Service Center</li>
-                <li>LG Repair Center</li>
-                <li>LG Service Center Dubai</li>
-                <li>LG Service Center Abu Dhabi</li>
-                <li>LG Repair Center Dubai</li>
-                <li>LG Repair Center Abu Dhabi</li>
-                <li>LG Washing Machine Repair</li>
-                <li>LG Dishwasher Repair</li>
-                <li>LG Refrigerator Repair</li>
-                <li>LG TV repair</li>
-                <li>LG Dryer repair</li>
-                <li>LG Stove repair</li>
-                <li>LG Cooker repair</li>
-                <li>LG Oven repair</li>
+                <li>Electrolux Service Center</li>
+                <li>Electrolux Repair Center</li>
+                <li>Electrolux Service Center Dubai</li>
+                <li>Electrolux Service Center Abu Dhabi</li>
+                <li>Electrolux Repair Center Dubai</li>
+                <li>Electrolux Repair Center Abu Dhabi</li>
+                <li>Electrolux Washing Machine Repair</li>
+                <li>Electrolux Dishwasher Repair</li>
+                <li>Electrolux Refrigerator Repair</li>
+                <li>Electrolux Dryer repair</li>
+                <li>Electrolux Stove repair</li>
+                <li>Electrolux Cooker repair</li>
+                <li>Electrolux Oven repair</li>
               </ul>
               <div className="flex flex-col mt-6 md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
                 <button
@@ -512,7 +508,7 @@ const BoschPage = () => {
                   <p>
                     "Delivering top-tier, professional solutions that guarantee
                     the optimal performance of your
-                    LG washing
+                    Electrolux washing
                     machine. Our Washing Machine Repair Service is your reliable
                     partner for all your washing machine repair needs."
                   </p>
@@ -557,7 +553,7 @@ const BoschPage = () => {
                   <p>
                     "Delivering top-tier, professional solutions that ensure the
                     optimal performance of your
-                    LG dryer. Our
+                    Electrolux dryer. Our
                     Dryer Repair Service is your trusted partner for all your
                     dryer repair needs."
                   </p>
@@ -601,7 +597,7 @@ const BoschPage = () => {
                 <div className="sm:w-[170px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Providing top-notch, expert solutions to ensure the optimal
-                    performance of LG dishwasher. Our Dishwasher Repair Service is your
+                    performance of Electrolux dishwasher. Our Dishwasher Repair Service is your
                     dependable choice for all your dishwasher repair needs."
                   </p>
                 </div>
@@ -644,7 +640,7 @@ const BoschPage = () => {
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that ensure the
-                    optimal performance of your LG gas cooker/stove. Our Gas Cooker/Stove Repair
+                    optimal performance of your Electrolux gas cooker/stove. Our Gas Cooker/Stove Repair
                     Service is your trusted partner for all your gas
                     cooker/stove repair needs."
                   </p>

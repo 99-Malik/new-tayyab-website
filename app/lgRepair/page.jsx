@@ -36,14 +36,14 @@ const BoschPage = () => {
               <span className="text-[#F8860D] font-bold">
                 RepairHomeUAE
               </span>{' '}
-              <span>Samsung Appliances Service Center</span>
+              <span>LG Appliances Service Center</span>
             </h1>
             <p className=" text-md py-5 font-raleway text-white">
-              Repair Home UAE is a Samsung Service Centre in Dubai
+              Repair Home UAE is a LG Service Centre in Dubai
               and Abu Dhabi. Trust our well-trained technicians to deliver
-              professional & reliable Samsung repairs ensuring your appliances
-              are in capable hands.Samsung Dishwasher Repair, Dryer,Washing
-              Machine,LED TV, Microwave and Refrigerator Repair.All Samsung
+              professional & reliable LG repairs ensuring your appliances
+              are in capable hands.LG Dishwasher Repair, Dryer,Washing
+              Machine,LED TV, Microwave and Refrigerator Repair.All LG
               Reparing Services.
             </p>
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
@@ -156,7 +156,7 @@ const BoschPage = () => {
             </h1>
 
             <h1 className="p-2 md:p-2 font-bold text-[#F8860D]">
-              We Provide Top Notch High Quality Repairing Services for Samsung
+              We Provide Top Notch High Quality Repairing Services for LG
               Home Appliances.
             </h1>
           </div>
@@ -176,8 +176,7 @@ const BoschPage = () => {
               </h1>
               <p className="py-12 text-md px-4 font-semibold text-white">
                 "Discover the pinnacle of appliance repair expertise at
-                RepairHomeUAE, proudly serving Electrolux
-                Samsung,Lg,Bosch,Siemens and Whirlpool appliances
+                RepairHomeUAE, proudly serving LG appliances
                 repairing in Dubai and Abu Dhabi. We specialize in the repair
                 and maintenance of essential household appliances, including
                 washing machines, dishwashers, dryers, and gas stoves/cookers.
@@ -230,7 +229,7 @@ const BoschPage = () => {
           </div>
           <div>
             <h1 className="text-4xl font-bold max-w-xl">
-              Welcome To Repair Home UAE Samsung Service Center
+              Welcome To Repair Home UAE LG Service Center
             </h1>
             <div className="flex gap-10 pt-5 flex-col sm:flex-row">
               <div className="flex items-center gap-1">
@@ -243,23 +242,23 @@ const BoschPage = () => {
               </div>
             </div>
             <p className="py-6 max-w-xl">
-              Samsung Service Center Dubai is dedicated to providing
-              high-quality service and repairs of Samsung kitchen appliances. We
-              provide repair services for all kinds of Samsung kitchen
+              LG Service Center Dubai is dedicated to providing
+              high-quality service and repairs of LG kitchen appliances. We
+              provide repair services for all kinds of LG kitchen
               appliances, including fridges, cooking ranges, dishwashers,
               microwaves, and more. Our experienced technicians are available
               24/7 to provide fast and efficient repairs for both residential
-              and commercial customers. With our reliable Samsung service center
+              and commercial customers. With our reliable LG service center
               in Dubai, you can rest assured that your appliance will be fixed
               quickly and efficiently with the highest quality parts available.
               We guarantee a fast response time for any repair requests and aim
-              to ensure complete customer.Samsung appliance repair Samsung
-              appliance service Samsung appliance technician Samsung appliance
-              maintenance Samsung appliance fix Samsung refrigerator repair
-              Samsung washer and dryer repair Samsung dishwasher repair Samsung
-              oven and stove repair Samsung microwave repair Samsung TV repair
-              Samsung air conditioner repair Samsung freezer repair Samsung
-              range hood repair Samsung small appliance repair
+              to ensure complete customer.LG appliance repair LG
+              appliance service LG appliance technician LG appliance
+              maintenance LG appliance fix LG refrigerator repair
+              LG washer and dryer repair LG dishwasher repair LG
+              oven and stove repair LG microwave repair LG TV repair
+              LG air conditioner repair LG freezer repair LG
+              range hood repair LG small appliance repair
             </p>
             <div className="divider" />
             <CallOrWhatsappButton />
@@ -311,27 +310,27 @@ const BoschPage = () => {
       <div className="hero min-h-screen bg-base-100">
           <div className="hero-content flex-col lg:flex-row">
             <div>
-              <h1 className="text-4xl font-bold">Samsung Service Center Abu DHabi</h1>
+              <h1 className="text-4xl font-bold">LG Service Center Abu DHabi</h1>
               <p className="py-6">
-                We provide Samsung Service Center in Abu Dhabi.The
-                best Samsung Service Center in Abu Dhabi.We provide
+                We provide LG Service Center in Abu Dhabi.The
+                best LG Service Center in Abu Dhabi.We provide
                 following services:
               </p>
               <ul>
-                <li>Samsung Service Center</li>
-                <li>Samsung Repair Center</li>
-                <li>Samsung Service Center Dubai</li>
-                <li>Samsung Service Center Abu Dhabi</li>
-                <li>Samsung Repair Center Dubai</li>
-                <li>Samsung Repair Center Abu Dhabi</li>
-                <li>Samsung Washing Machine Repair</li>
-                <li>Samsung Dishwasher Repair</li>
-                <li>Samsung Refrigerator Repair</li>
-                <li>Samsung TV repair</li>
-                <li>Samsung Dryer repair</li>
-                <li>Samsung Stove repair</li>
-                <li>Samsung Cooker repair</li>
-                <li>Samsung Oven repair</li>
+                <li>LG Service Center</li>
+                <li>LG Repair Center</li>
+                <li>LG Service Center Dubai</li>
+                <li>LG Service Center Abu Dhabi</li>
+                <li>LG Repair Center Dubai</li>
+                <li>LG Repair Center Abu Dhabi</li>
+                <li>LG Washing Machine Repair</li>
+                <li>LG Dishwasher Repair</li>
+                <li>LG Refrigerator Repair</li>
+                <li>LG TV repair</li>
+                <li>LG Dryer repair</li>
+                <li>LG Stove repair</li>
+                <li>LG Cooker repair</li>
+                <li>LG Oven repair</li>
               </ul>
               <div className="flex flex-col mt-6 md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
                 <button
@@ -353,27 +352,27 @@ const BoschPage = () => {
               </div>
             </div>
             <div>
-              <h1 className="text-4xl mt-2 font-bold">Samsung Service Center Dubai</h1>
+              <h1 className="text-4xl mt-2 font-bold">LG Service Center Dubai</h1>
               <p className="py-6">
-                We provide Samsung Service Center in Dubai. The best Samsung
+                We provide LG Service Center in Dubai. The best LG
                 Service Center in Dubai. We provide following
                 services:
               </p>
               <ul>
-                <li>Samsung Service Center</li>
-                <li>Samsung Repair Center</li>
-                <li>Samsung Service Center Dubai</li>
-                <li>Samsung Service Center Abu Dhabi</li>
-                <li>Samsung Repair Center Dubai</li>
-                <li>Samsung Repair Center Abu Dhabi</li>
-                <li>Samsung Washing Machine Repair</li>
-                <li>Samsung Dishwasher Repair</li>
-                <li>Samsung Refrigerator Repair</li>
-                <li>Samsung TV repair</li>
-                <li>Samsung Dryer repair</li>
-                <li>Samsung Stove repair</li>
-                <li>Samsung Cooker repair</li>
-                <li>Samsung Oven repair</li>
+                <li>LG Service Center</li>
+                <li>LG Repair Center</li>
+                <li>LG Service Center Dubai</li>
+                <li>LG Service Center Abu Dhabi</li>
+                <li>LG Repair Center Dubai</li>
+                <li>LG Repair Center Abu Dhabi</li>
+                <li>LG Washing Machine Repair</li>
+                <li>LG Dishwasher Repair</li>
+                <li>LG Refrigerator Repair</li>
+                <li>LG TV repair</li>
+                <li>LG Dryer repair</li>
+                <li>LG Stove repair</li>
+                <li>LG Cooker repair</li>
+                <li>LG Oven repair</li>
               </ul>
               <div className="flex flex-col mt-6 md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
                 <button
@@ -512,7 +511,7 @@ const BoschPage = () => {
                   <p>
                     "Delivering top-tier, professional solutions that guarantee
                     the optimal performance of your
-                    Samsung washing
+                    LG washing
                     machine. Our Washing Machine Repair Service is your reliable
                     partner for all your washing machine repair needs."
                   </p>
@@ -557,7 +556,7 @@ const BoschPage = () => {
                   <p>
                     "Delivering top-tier, professional solutions that ensure the
                     optimal performance of your
-                    Samsung dryer. Our
+                    LG dryer. Our
                     Dryer Repair Service is your trusted partner for all your
                     dryer repair needs."
                   </p>
@@ -601,7 +600,7 @@ const BoschPage = () => {
                 <div className="sm:w-[170px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Providing top-notch, expert solutions to ensure the optimal
-                    performance of Samsung dishwasher. Our Dishwasher Repair Service is your
+                    performance of LG dishwasher. Our Dishwasher Repair Service is your
                     dependable choice for all your dishwasher repair needs."
                   </p>
                 </div>
@@ -644,7 +643,7 @@ const BoschPage = () => {
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that ensure the
-                    optimal performance of your Samsung gas cooker/stove. Our Gas Cooker/Stove Repair
+                    optimal performance of your LG gas cooker/stove. Our Gas Cooker/Stove Repair
                     Service is your trusted partner for all your gas
                     cooker/stove repair needs."
                   </p>

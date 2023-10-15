@@ -36,14 +36,14 @@ const BoschPage = () => {
               <span className="text-[#F8860D] font-bold">
                 RepairHomeUAE
               </span>{' '}
-              <span>Electrolux Appliances Service Center</span>
+              <span>Samsung Appliances Service Center</span>
             </h1>
             <p className=" text-md py-5 font-raleway text-white">
-              Repair Home UAE is a Electrolux Service Centre in Dubai
+              Repair Home UAE is a Samsung Service Centre in Dubai
               and Abu Dhabi. Trust our well-trained technicians to deliver
-              professional & reliable Electrolux repairs ensuring your appliances
-              are in capable hands.Electrolux Dishwasher Repair, Dryer,Washing
-              Machine,LED TV, Microwave and Refrigerator Repair.All Electrolux
+              professional & reliable Samsung repairs ensuring your appliances
+              are in capable hands.Samsung Dishwasher Repair, Dryer,Washing
+              Machine,LED TV, Microwave and Refrigerator Repair.All Samsung
               Reparing Services.
             </p>
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
@@ -156,7 +156,7 @@ const BoschPage = () => {
             </h1>
 
             <h1 className="p-2 md:p-2 font-bold text-[#F8860D]">
-              We Provide Top Notch High Quality Repairing Services for Electrolux
+              We Provide Top Notch High Quality Repairing Services for Samsung
               Home Appliances.
             </h1>
           </div>
@@ -176,9 +176,7 @@ const BoschPage = () => {
               </h1>
               <p className="py-12 text-md px-4 font-semibold text-white">
                 "Discover the pinnacle of appliance repair expertise at
-                RepairHomeUAE, proudly serving Electrolux
-                Electrolux,Electrolux,Bosch,Electrolux and Whirlpool appliances
-                repairing in Dubai and Abu Dhabi. We specialize in the repair
+                RepairHomeUAE, proudly serving Samsung Appliance Repair in Dubai and Abu Dhabi. We specialize in the repair
                 and maintenance of essential household appliances, including
                 washing machines, dishwashers, dryers, and gas stoves/cookers.
                 Our skilled technicians are committed to delivering professional
@@ -230,7 +228,7 @@ const BoschPage = () => {
           </div>
           <div>
             <h1 className="text-4xl font-bold max-w-xl">
-              Welcome To Repair Home UAE Electrolux Service Center
+              Welcome To Repair Home UAE Samsung Service Center
             </h1>
             <div className="flex gap-10 pt-5 flex-col sm:flex-row">
               <div className="flex items-center gap-1">
@@ -243,23 +241,23 @@ const BoschPage = () => {
               </div>
             </div>
             <p className="py-6 max-w-xl">
-              Electrolux Service Center Dubai is dedicated to providing
-              high-quality service and repairs of Electrolux kitchen appliances. We
-              provide repair services for all kinds of Electrolux kitchen
+              Samsung Service Center Dubai is dedicated to providing
+              high-quality service and repairs of Samsung kitchen appliances. We
+              provide repair services for all kinds of Samsung kitchen
               appliances, including fridges, cooking ranges, dishwashers,
               microwaves, and more. Our experienced technicians are available
               24/7 to provide fast and efficient repairs for both residential
-              and commercial customers. With our reliable Electrolux service center
+              and commercial customers. With our reliable Samsung service center
               in Dubai, you can rest assured that your appliance will be fixed
               quickly and efficiently with the highest quality parts available.
               We guarantee a fast response time for any repair requests and aim
-              to ensure complete customer.Electrolux appliance repair Electrolux
-              appliance service Electrolux appliance technician Electrolux appliance
-              maintenance Electrolux appliance fix Electrolux refrigerator repair
-              Electrolux washer and dryer repair Electrolux dishwasher repair Electrolux
-              oven and stove repair Electrolux microwave repair Electrolux TV repair
-              Electrolux air conditioner repair Electrolux freezer repair Electrolux
-              range hood repair Electrolux small appliance repair
+              to ensure complete customer.Samsung appliance repair Samsung
+              appliance service Samsung appliance technician Samsung appliance
+              maintenance Samsung appliance fix Samsung refrigerator repair
+              Samsung washer and dryer repair Samsung dishwasher repair Samsung
+              oven and stove repair Samsung microwave repair Samsung TV repair
+              Samsung air conditioner repair Samsung freezer repair Samsung
+              range hood repair Samsung small appliance repair
             </p>
             <div className="divider" />
             <CallOrWhatsappButton />
@@ -311,26 +309,27 @@ const BoschPage = () => {
       <div className="hero min-h-screen bg-base-100">
           <div className="hero-content flex-col lg:flex-row">
             <div>
-              <h1 className="text-4xl font-bold">Electrolux Service Center Abu DHabi</h1>
+              <h1 className="text-4xl font-bold">Samsung Service Center Abu DHabi</h1>
               <p className="py-6">
-                We provide Electrolux Service Center in Abu Dhabi.The
-                best Electrolux Service Center in Abu Dhabi.We provide
+                We provide Samsung Service Center in Abu Dhabi.The
+                best Samsung Service Center in Abu Dhabi.We provide
                 following services:
               </p>
               <ul>
-                <li>Electrolux Service Center</li>
-                <li>Electrolux Repair Center</li>
-                <li>Electrolux Service Center Dubai</li>
-                <li>Electrolux Service Center Abu Dhabi</li>
-                <li>Electrolux Repair Center Dubai</li>
-                <li>Electrolux Repair Center Abu Dhabi</li>
-                <li>Electrolux Washing Machine Repair</li>
-                <li>Electrolux Dishwasher Repair</li>
-                <li>Electrolux Refrigerator Repair</li>
-                <li>Electrolux Dryer repair</li>
-                <li>Electrolux Stove repair</li>
-                <li>Electrolux Cooker repair</li>
-                <li>Electrolux Oven repair</li>
+                <li>Samsung Service Center</li>
+                <li>Samsung Repair Center</li>
+                <li>Samsung Service Center Dubai</li>
+                <li>Samsung Service Center Abu Dhabi</li>
+                <li>Samsung Repair Center Dubai</li>
+                <li>Samsung Repair Center Abu Dhabi</li>
+                <li>Samsung Washing Machine Repair</li>
+                <li>Samsung Dishwasher Repair</li>
+                <li>Samsung Refrigerator Repair</li>
+                <li>Samsung TV repair</li>
+                <li>Samsung Dryer repair</li>
+                <li>Samsung Stove repair</li>
+                <li>Samsung Cooker repair</li>
+                <li>Samsung Oven repair</li>
               </ul>
               <div className="flex flex-col mt-6 md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
                 <button
@@ -352,26 +351,27 @@ const BoschPage = () => {
               </div>
             </div>
             <div>
-              <h1 className="text-4xl mt-2 font-bold">Electrolux Service Center Dubai</h1>
+              <h1 className="text-4xl mt-2 font-bold">Samsung Service Center Dubai</h1>
               <p className="py-6">
-                We provide Electrolux Service Center in Dubai. The best Electrolux
+                We provide Samsung Service Center in Dubai. The best Samsung
                 Service Center in Dubai. We provide following
                 services:
               </p>
               <ul>
-                <li>Electrolux Service Center</li>
-                <li>Electrolux Repair Center</li>
-                <li>Electrolux Service Center Dubai</li>
-                <li>Electrolux Service Center Abu Dhabi</li>
-                <li>Electrolux Repair Center Dubai</li>
-                <li>Electrolux Repair Center Abu Dhabi</li>
-                <li>Electrolux Washing Machine Repair</li>
-                <li>Electrolux Dishwasher Repair</li>
-                <li>Electrolux Refrigerator Repair</li>
-                <li>Electrolux Dryer repair</li>
-                <li>Electrolux Stove repair</li>
-                <li>Electrolux Cooker repair</li>
-                <li>Electrolux Oven repair</li>
+                <li>Samsung Service Center</li>
+                <li>Samsung Repair Center</li>
+                <li>Samsung Service Center Dubai</li>
+                <li>Samsung Service Center Abu Dhabi</li>
+                <li>Samsung Repair Center Dubai</li>
+                <li>Samsung Repair Center Abu Dhabi</li>
+                <li>Samsung Washing Machine Repair</li>
+                <li>Samsung Dishwasher Repair</li>
+                <li>Samsung Refrigerator Repair</li>
+                <li>Samsung TV repair</li>
+                <li>Samsung Dryer repair</li>
+                <li>Samsung Stove repair</li>
+                <li>Samsung Cooker repair</li>
+                <li>Samsung Oven repair</li>
               </ul>
               <div className="flex flex-col mt-6 md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
                 <button
@@ -510,7 +510,7 @@ const BoschPage = () => {
                   <p>
                     "Delivering top-tier, professional solutions that guarantee
                     the optimal performance of your
-                    Electrolux washing
+                    Samsung washing
                     machine. Our Washing Machine Repair Service is your reliable
                     partner for all your washing machine repair needs."
                   </p>
@@ -555,7 +555,7 @@ const BoschPage = () => {
                   <p>
                     "Delivering top-tier, professional solutions that ensure the
                     optimal performance of your
-                    Electrolux dryer. Our
+                    Samsung dryer. Our
                     Dryer Repair Service is your trusted partner for all your
                     dryer repair needs."
                   </p>
@@ -599,7 +599,7 @@ const BoschPage = () => {
                 <div className="sm:w-[170px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Providing top-notch, expert solutions to ensure the optimal
-                    performance of Electrolux dishwasher. Our Dishwasher Repair Service is your
+                    performance of Samsung dishwasher. Our Dishwasher Repair Service is your
                     dependable choice for all your dishwasher repair needs."
                   </p>
                 </div>
@@ -642,7 +642,7 @@ const BoschPage = () => {
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that ensure the
-                    optimal performance of your Electrolux gas cooker/stove. Our Gas Cooker/Stove Repair
+                    optimal performance of your Samsung gas cooker/stove. Our Gas Cooker/Stove Repair
                     Service is your trusted partner for all your gas
                     cooker/stove repair needs."
                   </p>
