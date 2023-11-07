@@ -83,7 +83,7 @@ const BoschPage = () => {
         <div className="hero min-h-screen bg-[#fafafa] bg-[url(/images/backgrounds/bg.webp)] bg-fixed">
           <div className="hero-overlay bg-black bg-opacity-70" />
           <div className="hero-content  flex-col lg:flex-row-reverse ">
-            <img loading="lazy" loading="lazy"
+            <img loading="lazy"
               src="/images/washing/1.jpg"
               className="sm:w-[full] md:max-w-sm sm:h-full md:px-0 px-5 ml-[-8px] md:ml-0  md:mx-0 rounded-xl drop-shadow-2xl"
             />
