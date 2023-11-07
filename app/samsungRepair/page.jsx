@@ -593,7 +593,7 @@ const BoschPage = () => {
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/dryer.svg"
-                      className="overflow-hidden p-2 ml-[20px] md:mt-5 "
+                      className="overflow-hidden p-2 ml-[15px] md:mt-5 "
                       width={220}
                       height={200}
                     />
@@ -637,7 +637,7 @@ const BoschPage = () => {
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/dishwasher.svg"
-                      className="overflow-hidden p-2 ml-[20px] md:mt-5 "
+                      className="overflow-hidden p-2 ml-[15px] md:mt-5 "
                       width={220}
                       height={200}
                     />
@@ -681,7 +681,7 @@ const BoschPage = () => {
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/stove.svg"
-                      className="overflow-hidden p-2 ml-[20px] md:mt-5 "
+                      className="overflow-hidden p-2 ml-[15px] md:mt-5 "
                       width={220}
                       height={200}
                     />
@@ -725,7 +725,7 @@ const BoschPage = () => {
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/fridge.svg"
-                      className="overflow-hidden p-2 ml-[20px] md:mt-5 "
+                      className="overflow-hidden p-2 ml-[15px] md:mt-5 "
                       width={220}
                       height={200}
                     />
