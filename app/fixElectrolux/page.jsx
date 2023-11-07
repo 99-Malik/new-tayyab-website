@@ -19,7 +19,7 @@ const BoschPage = () => {
     <div className="mt-[-10px]">
       {/* MAIN SECTION */}
 
-      <div className="hero min-h-screen bg-[url(/images/backgrounds/lg.webp)] bg-fixed">
+      <div className="hero min-h-screen bg-[url(/images/backgrounds/2.jpg)] bg-fixed">
         <div className="hero-overlay bg-black bg-opacity-70" />
         <div
           className="hero-content flex-col-reverse lg:flex-row-reverse mt-20 md:mt-10"
