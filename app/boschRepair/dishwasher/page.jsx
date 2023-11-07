@@ -37,7 +37,7 @@ const BoschPage = () => {
               </span>{" "}
               <span>
                 Bosch Appliances Service Center a Best Dishwasher Repair
-                Company in Dubai and Abu Dhabi.
+                Company in Dubai and Abu Dhabi. 
               </span>
             </h1>
             <p className=" text-md py-5 font-raleway text-white">

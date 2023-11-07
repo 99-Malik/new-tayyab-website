@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
           />
           {/* <!--  ClickCease.com tracking--> */}
           <a href="https://www.clickcease.com" rel="nofollow">
-            <img loading="lazy"src="https://monitor.clickcease.com" alt="ClickCease" />
+            <img loading="lazy" src="https://monitor.clickcease.com" alt="ClickCease" />
           </a>
           {/* <!--  ClickCease.com tracking--> */}
         </noscript>
