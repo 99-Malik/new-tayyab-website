@@ -294,30 +294,29 @@ const BoschPage = () => {
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/washing.svg"
-                      className="overflow-hidden p-2 ml-[15px] md:mt-5 "
+                      className="overflow-hidden p-2 ml-[30px] md:mt-5 "
                       width={220}
                       height={200}
                     />
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#2c2a2a]">
-                <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
-                  Washing Machine Repair
+              <div className="card-body bg-[#002B3D]">
+                <h2 className="card-title text-[#F8860D] hover:scale-110 font-bold duration-300 hover:cursor-pointer">
+                 Samsung Washing Machine Repair
                 </h2>
                 <div className="sm:w-[200px] text-start text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that guarantee
-                    the optimal performance of your
-                    Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool washing
-                    machine. Our Washing Machine Repair Service is your reliable
-                    partner for all your washing machine repair needs."
+                    the optimal performance of your Samsung washing machine. Our
+                    Washing Machine Repair Service is your reliable partner for
+                    all your washing machine repair needs."
                   </p>
                 </div>
 
                 <div className="card-actions justify-end">
                   <button
-                    className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-white hover:bg-white mt-3  "
+                    className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-Black hover:bg-white mt-3  "
                     onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
                     }}
@@ -346,23 +345,22 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#2c2a2a]">
-                <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
-                  Washing Dryer Repair
+              <div className="card-body bg-[#002B3D]">
+                <h2 className="card-title text-[#F8860D] hover:scale-110 font-bold duration-300 hover:cursor-pointer">
+                 Samsung Washing Dryer Repair
                 </h2>
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that ensure the
-                    optimal performance of your
-                    Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool dryer. Our
-                    Dryer Repair Service is your trusted partner for all your
-                    dryer repair needs."
+                    optimal performance of your Samsung dryer. Our Dryer Repair
+                    Service is your trusted partner for all your dryer repair
+                    needs."
                   </p>
                 </div>
 
                 <div className="card-actions justify-end">
                   <button
-                    className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-white hover:bg-white mt-3  "
+                    className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-black hover:bg-white mt-3  "
                     onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
                     }}
@@ -391,22 +389,22 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#2c2a2a]">
-                <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
-                  Dishwasher Repair
+              <div className="card-body bg-[#002B3D]">
+                <h2 className="card-title text-[#F8860D] hover:scale-110 font-bold duration-300 hover:cursor-pointer">
+                 Samsung Dishwasher Repair
                 </h2>
                 <div className="sm:w-[170px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Providing top-notch, expert solutions to ensure the optimal
-                    performance of Samsung,Lg,Bosch,Siemens,Electrolux and
-                    Whirlpool dishwasher. Our Dishwasher Repair Service is your
-                    dependable choice for all your dishwasher repair needs."
+                    performance of Samsung dishwasher. Our Dishwasher Repair
+                    Service is your dependable choice for all your dishwasher
+                    repair needs."
                   </p>
                 </div>
 
                 <div className="card-actions justify-end">
                   <button
-                    className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-white hover:bg-white mt-3  "
+                    className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-black hover:bg-white mt-3  "
                     onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
                     }}
@@ -435,23 +433,65 @@ const BoschPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-body bg-[#2c2a2a]">
-                <h2 className="card-title text-white hover:scale-110 font-bold duration-300 hover:cursor-pointer">
-                  Gas Cooker/Stove Repair
+              <div className="card-body bg-[#002B3D]">
+                <h2 className="card-title text-[#F8860D] hover:scale-110 font-bold duration-300 hover:cursor-pointer">
+                 Samsung Gas Cooker/Stove Repair
                 </h2>
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that ensure the
-                    optimal performance of your Samsung,Lg,Bosch,Siemens,Electrolux
-                    and Whirlpool gas cooker/stove. Our Gas Cooker/Stove Repair
-                    Service is your trusted partner for all your gas
-                    cooker/stove repair needs."
+                    optimal performance of your Samsung gas cooker/stove. Our Gas
+                    Cooker/Stove Repair Service is your trusted partner for all
+                    your gas cooker/stove repair needs."
                   </p>
                 </div>
 
                 <div className="card-actions justify-end">
                   <button
-                    className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-white hover:bg-white mt-3  "
+                    className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-black hover:bg-white mt-3  "
+                    onClick={() => {
+                      window.location.href = `tel:${phoneNumber}`;
+                    }}
+                  >
+                    Call Us
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="washing" className="w-full h-auto flex justify-center">
+        <div className="w-full mx-5 md:mx-5 h-auto flex flex-col justify-center items-center">
+          <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
+            <div className="card lg:card-side bg-base-100 shadow-xl">
+              <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.webp)] bg-fixed">
+                <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-80 ">
+                  <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
+                    <Image
+                      src="/fridge.svg"
+                      className="overflow-hidden p-2 ml-[15px] md:mt-5 "
+                      width={220}
+                      height={200}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="card-body bg-[#002B3D]">
+                <h2 className="card-title text-[#F8860D] hover:scale-110 font-bold duration-300 hover:cursor-pointer">
+                  Samsung Fridge/Refrigerator Repair
+                </h2>
+                <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
+                  <p>
+                    "Delivering top-tier, professional solutions that ensure the
+                    optimal performance of your Samsung Fridge/Refrigerator Repair. Our Refrigerator Repair Service is your trusted partner for all
+                    your gas cooker/stove repair needs."
+                  </p>
+                </div>
+
+                <div className="card-actions justify-end">
+                  <button
+                    className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-black hover:bg-white mt-3  "
                     onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
                     }}
