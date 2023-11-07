@@ -40,7 +40,7 @@ const BoschPage = () => {
                 and Abu Dhabi.
               </span>
             </h1>
-            <p className=" text-md py-5 font-raleway text-white">
+            <p className=" text-md text-center py-5 font-raleway text-white">
               Repair Home UAE is a reliable Samsung service center in Dubai and
               Abu Dhabi, you can rest assured that your appliance will be fixed
               quickly and efficiently with the highest quality parts available.
