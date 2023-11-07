@@ -19,7 +19,7 @@ const ContactPage = () => {
     return false;
   }
   return (
-    <div className="hero min-h-screen bg-[url(/images/backgrounds/2.jpg)] bg-fixed mt-[-10px]">
+    <div className="hero min-h-screen bg-[url(/images/backgrounds/lg.webp)] bg-fixed mt-[-10px]">
       <div className="hero-overlay bg-black bg-opacity-70" />
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left md:ml-10">

@@ -19,14 +19,14 @@ const BoschPage = () => {
     <div className="mt-[-10px]">
       {/* MAIN SECTION */}
 
-      <div className="hero min-h-screen bg-[url(/images/backgrounds/2.jpg)] bg-fixed">
+      <div className="hero min-h-screen bg-[url(/images/backgrounds/lg.webp)] bg-fixed">
         <div className="hero-overlay bg-black bg-opacity-70" />
         <div
           className="hero-content flex-col-reverse lg:flex-row-reverse mt-20 md:mt-10"
           style={{zIndex: 0}}
         >
           <Image
-            src="/images/fridge/washing.jpg"
+            src="/images/washing/1.webp"
             className="max-w-xs md:max-w-xl shadow-2xl"
             height={300}
             width={300}
@@ -163,11 +163,11 @@ const BoschPage = () => {
         </div>
       </div>
       <div className=" w-full bg-black h-auto   ">
-        <div className="hero min-h-screen bg-[#fafafa] bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
+        <div className="hero min-h-screen bg-[#fafafa] bg-[url(/images/backgrounds/bg.webp)] bg-fixed">
           <div className="hero-overlay bg-black bg-opacity-70" />
           <div className="hero-content  flex-col lg:flex-row-reverse ">
             <img
-              src="/images/2.jpg"
+              src="/images/2.webp"
               className="sm:w-[full] md:max-w-sm sm:h-full md:px-0 px-5 ml-[-8px] md:ml-0  md:mx-0 rounded-xl drop-shadow-2xl"
             />
             <div>
@@ -488,7 +488,7 @@ const BoschPage = () => {
         <div className="w-full mx-5 md:mx-5 h-auto flex flex-col justify-center items-center">
           <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
-              <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
+              <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.webp)] bg-fixed">
                 <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-80 ">
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
@@ -533,7 +533,7 @@ const BoschPage = () => {
         <div className="w-full mx-5 md:mx-5 h-auto flex flex-col justify-center items-center">
           <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
-              <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
+              <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.webp)] bg-fixed">
                 <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-80 ">
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
@@ -578,7 +578,7 @@ const BoschPage = () => {
         <div className="w-full mx-5 md:mx-5 h-auto flex flex-col justify-center items-center">
           <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
-              <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
+              <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.webp)] bg-fixed">
                 <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-80 ">
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
@@ -621,7 +621,7 @@ const BoschPage = () => {
         <div className="w-full mx-5 md:mx-5 h-auto flex flex-col justify-center items-center">
           <div className="mt-5 drop-shadow-xl bg-white  border-[1px] border-grey rounded-2xl">
             <div className="card lg:card-side bg-base-100 shadow-xl">
-              <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.jpg)] bg-fixed">
+              <div className="w-full md:w-full h-[270px] md:h-[270px] rounded-t-lg bg-black bg-[url(/images/backgrounds/bg.webp)] bg-fixed">
                 <div className="hero-overlay bg-black w-full h-[270px] rounded-t-lg bg-opacity-80 ">
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
