@@ -28,8 +28,8 @@ const BoschPage = () => {
           <Image
             src="/images/fridge/washing.jpg"
             className="max-w-xs md:max-w-xl shadow-2xl"
-            height={300}
-            width={300}
+            height={200}
+            width={200}
           />
           <div>
             <h1 className="text-4xl  font-raleway text-white leading-tight">
@@ -493,7 +493,7 @@ const BoschPage = () => {
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/washing.svg"
-                      className="overflow-hidden p-2 ml-[50px] md:mt-5 "
+                      className="overflow-hidden p-2 ml-[20px] md:mt-5 "
                       width={220}
                       height={200}
                     />
@@ -538,7 +538,7 @@ const BoschPage = () => {
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/dryer.svg"
-                      className="overflow-hidden p-2 ml-[50px] md:mt-5 "
+                      className="overflow-hidden p-2 ml-[20px] md:mt-5 "
                       width={220}
                       height={200}
                     />
@@ -583,7 +583,7 @@ const BoschPage = () => {
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/dishwasher.svg"
-                      className="overflow-hidden p-2 ml-[50px] md:mt-5 "
+                      className="overflow-hidden p-2 ml-[20px] md:mt-5 "
                       width={220}
                       height={200}
                     />
@@ -626,7 +626,7 @@ const BoschPage = () => {
                   <div className="w-full md:w-full h-[270px] px-7 md:h-[270px] p-4">
                     <Image
                       src="/stove.svg"
-                      className="overflow-hidden p-2 ml-[50px] md:mt-5 "
+                      className="overflow-hidden p-2 ml-[20px] md:mt-5 "
                       width={220}
                       height={200}
                     />
