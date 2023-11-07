@@ -27,8 +27,8 @@ const BoschPage = () => {
           <Image
             src="/images/fridge/washing.jpg"
             className="max-w-xs md:max-w-xl shadow-2xl"
-            height={300}
-            width={300}
+            height={100}
+            width={100}
           />
           <div>
             <h1 className="text-4xl  font-raleway text-white leading-tight">
