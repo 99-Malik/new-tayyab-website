@@ -26,7 +26,7 @@ const BoschPage = () => {
           style={{zIndex: 0}}
         >
           <Image
-            src="/images/washing/1.webp"
+            src="/images/fridge/washing.jpg"
             className="max-w-xs md:max-w-xl shadow-2xl"
             height={300}
             width={300}
