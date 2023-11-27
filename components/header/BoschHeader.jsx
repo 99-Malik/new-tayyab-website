@@ -25,13 +25,13 @@ const BoschHeader = () => {
     if (classes) {
       if (position > 60) {
         classes.remove ('bg-transparent');
-        classes.remove ('py-5');
+        classes.remove ('py-2');
         classes.add ('bg-black');
         classes.add ('shadow-md');
       }
       if (position < 60) {
         classes.add ('bg-transparent');
-        classes.add ('py-5');
+        classes.add ('py-2');
         classes.remove ('bg-black');
         classes.remove ('shadow-md');
       }

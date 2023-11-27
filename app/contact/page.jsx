@@ -19,11 +19,11 @@ const ContactPage = () => {
     return false;
   }
   return (
-    <div className="hero min-h-screen bg-[url(/images/backgrounds/2.jpg)] bg-fixed mt-[-10px]">
+    <div className="hero min-h-screen bg-[url(/images/backgrounds/2.jpg)] bg-fixed">
       <div className="hero-overlay bg-black bg-opacity-70" />
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="text-center lg:text-left md:ml-10">
-          <h1 className="text-5xl font-bold text-[#F8860D]">Contact Us!</h1>
+        <div className="text-center lg:text-left md:ml-10 mt-[15px]">
+          <h1 className="text-3xl font-bold text-[#F8860D]">Contact Us!</h1>
           <p className="py-6 text-white text-bold">
             For all your Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool
             appliance repair needs, don't hesitate to contact us today! <br />{" "}

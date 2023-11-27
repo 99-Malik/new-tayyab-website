@@ -11,7 +11,7 @@ const Footer = ({color, company}) => {
     return null;
   }
   return (
-    <footer className="footer flex justify-center mt-[25px] p-10 bg-info-content text-base-200 ">
+    <footer className="footer flex justify-center mt-[25px] p-7 bg-info-content text-base-200 ">
       <div className="footer w-full max-w-7xl gap-y-10">
         <Link href="/">
           <div
