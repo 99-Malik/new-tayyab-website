@@ -36,7 +36,7 @@ const FixedCallButtons = () => {
         className="btn btn-circle btn-lg bg-green-500 border-none hover:bg-green-600"
         onClick={() => gtag_report_conversion(pathname)}
       >
-        <Image src="/whatsapp.svg" width={45} height={45} alt="WhatsApp" />
+        <Image src="/whatsapp.svg" loading="lazy" width={45} height={45} alt="WhatsApp" />
       </a>
     </div>
   );
