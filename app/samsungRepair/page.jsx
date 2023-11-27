@@ -15,10 +15,10 @@ import {
 
 const BoschPage = () => {
   return (
-    <div className="mt-[-10px]">
+    <div>
       {/* MAIN SECTION */}
 
-      <div className="hero min-h-screen bg-[url(/images/backgrounds/lg.webp)] bg-fixed">
+      <div className="hero h-auto bg-[url(/images/backgrounds/lg.webp)] bg-fixed">
         <div className="hero-overlay bg-black bg-opacity-70" />
         <div
           className="hero-content flex-col-reverse lg:flex-row-reverse mt-20 md:mt-10"
@@ -36,19 +36,13 @@ const BoschPage = () => {
                 RepairHomeUAE
               </span>{" "}
               <span>
-                Samsung Appliances Service Center a Best Repair Company in Dubai
-                and Abu Dhabi.
+                Samsung Appliances Service Center in Abu Dhabi
               </span>
             </h1>
-            <p className=" text-md text-center py-5 font-raleway text-white">
+            <p className=" text-md text-center py-2 font-raleway text-white">
               Repair Home UAE is a reliable Samsung service center in Dubai and
               Abu Dhabi, you can rest assured that your appliance will be fixed
               quickly and efficiently with the highest quality parts available.
-              At RepairHomeUAE, we stand as your trusted partner, providing
-              top-tier solutions to meet your every repair need.Our experienced
-              technicians are available 24/7 to provide fast and efficient
-              repairs for both residential and commercial customers. Check out
-              the exceptional qualities of all your appliances.
             </p>
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
               <button
