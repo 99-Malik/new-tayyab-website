@@ -33,13 +33,13 @@ const BoschPage = () => {
           <div>
             <h1 className="text-4xl  font-raleway text-white leading-tight">
               <span className="text-[#F8860D] font-bold">
-                RepairHomeUAE
+                LG Service Center
               </span>{" "}
-              <span>LG Appliances Service Center in Abu Dhabi</span>
+              <span />
             </h1>
             <p className=" text-md text-center py-2 font-raleway text-white">
-              Repair Home UAE is a reliable LG service center in Dubai and
-              Abu Dhabi, you can rest assured that your appliance will be fixed
+              Repair Home UAE is a reliable LG service center in Dubai and Abu
+              Dhabi, you can rest assured that your appliance will be fixed
               quickly and efficiently with the highest quality parts available.
             </p>
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
@@ -49,7 +49,7 @@ const BoschPage = () => {
                   window.location.href = `tel:${phoneNumber}`;
                 }}
               >
-                {phoneNumber}
+                Call Us{" "}
               </button>
               <button
                 className="px-5 py-4 bg-[#F8860D] hover:scale-110  text-black font-bold hover:bg-[white] hover:text-black hover:font-bold rounded-lg duration-200 shadow-md"
@@ -152,8 +152,8 @@ const BoschPage = () => {
             </h1>
 
             <h1 className="p-2 md:p-2 font-bold text-[#F8860D]">
-              We Provide Top Notch High Quality Repairing Services for LG
-              Home Appliances.
+              We Provide Top Notch High Quality Repairing Services for LG Home
+              Appliances.
             </h1>
           </div>
         </div>
@@ -179,8 +179,8 @@ const BoschPage = () => {
                   {" "}Our primary objective is to ensure the efficient and
                   effective repair of our clients' appliances, allowing them to
                   seamlessly resume their daily routines without interruptions
-                </span>.Therefore, you can always rely on LG Customer Care
-                as the ultimate destination for repairing your home appliances.
+                </span>.Therefore, you can always rely on LG Customer Care as
+                the ultimate destination for repairing your home appliances.
                 Simply get in touch with us via a call or WhatsApp to schedule
                 an appointment."
               </p>
@@ -231,8 +231,8 @@ const BoschPage = () => {
           </div>
           <div>
             <h1 className="text-2xl font-bold max-w-xl mt-2">
-              Repair Home UAE in Dubai and Abu Dhabi provides you the best
-              LG Repair Service.
+              Repair Home UAE in Dubai and Abu Dhabi provides you the best LG
+              Repair Service.
             </h1>
             <div className="flex gap-10 pt-5 flex-col sm:flex-row">
               <div className="flex items-center gap-1">
@@ -245,23 +245,22 @@ const BoschPage = () => {
               </div>
             </div>
             <p className="py-6 max-w-xl">
-              LG Appliances are renowned for their resource-efficient
-              operation, consuming less water, energy, and detergent. Therefore,
-              you can always rely on LG Customer Care as the ultimate
-              destination for repairing your home appliances. Simply get in
-              touch with us via a call or WhatsApp to schedule an appointment.
-              Our service center is equipped to deliver top-quality repair and
-              maintenance services for the entire range of LG appliances,
-              including LG washing machines, dishwashers, fridges, dryers,
-              and all other electrical home appliances. Our commitment is to
-              have a technician arrive and repair your machine on the same day.
-              At the LG Service Center Dubai, our goal is to provide our
-              customers with the finest repair and maintenance services. Our
-              professionals possess the expertise to repair all models of
-              LG washing machines, equipped with cutting-edge tools for
-              maintenance and repair tasks. For all your LG home appliance
-              repair needs, Our LG Service Center is the ultimate
-              destination."
+              LG Appliances are renowned for their resource-efficient operation,
+              consuming less water, energy, and detergent. Therefore, you can
+              always rely on LG Customer Care as the ultimate destination for
+              repairing your home appliances. Simply get in touch with us via a
+              call or WhatsApp to schedule an appointment. Our service center is
+              equipped to deliver top-quality repair and maintenance services
+              for the entire range of LG appliances, including LG washing
+              machines, dishwashers, fridges, dryers, and all other electrical
+              home appliances. Our commitment is to have a technician arrive and
+              repair your machine on the same day. At the LG Service Center
+              Dubai, our goal is to provide our customers with the finest repair
+              and maintenance services. Our professionals possess the expertise
+              to repair all models of LG washing machines, equipped with
+              cutting-edge tools for maintenance and repair tasks. For all your
+              LG home appliance repair needs, Our LG Service Center is the
+              ultimate destination."
             </p>
             <div className="divider" />
             <CallOrWhatsappButton />
@@ -360,11 +359,10 @@ const BoschPage = () => {
                 We Provide Repairing Services In Areas OF Dubai and Abu Dhabi!
               </h1>
               <p className="py-6 text-black">
-                So, if you are looking for professional LG Repair
-                Technicians in Dubai and Abu Dhabi, then contact us today.We
-                provide repair services for all kinds of LG kitchen
-                appliances, including washing
-                machines,dishwashers,dryers,Fridges, cooking ranges,
+                So, if you are looking for professional LG Repair Technicians in
+                Dubai and Abu Dhabi, then contact us today.We provide repair
+                services for all kinds of LG kitchen appliances, including
+                washing machines,dishwashers,dryers,Fridges, cooking ranges,
                 dishwashers, microwaves, and more. We have years of success in
                 this industry We offer excellent customer service We have many
                 satisfied customers Offer comprehensive Appliance repair
@@ -388,12 +386,10 @@ const BoschPage = () => {
       <div className="hero min-h-screen bg-base-100">
         <div className="hero-content flex-col lg:flex-row">
           <div>
-            <h1 className="text-4xl font-bold">
-              LG Service Center Abu Dhabi
-            </h1>
+            <h1 className="text-4xl font-bold">LG Service Center Abu Dhabi</h1>
             <p className="py-6">
-              We provide LG Service Center in Abu Dhabi.The best LG
-              Service Center in Abu Dhabi.We provide following services:
+              We provide LG Service Center in Abu Dhabi.The best LG Service
+              Center in Abu Dhabi.We provide following services:
             </p>
             <p>
               "Washing Machine Repair: In the UAE, count on us for dependable
@@ -401,19 +397,18 @@ const BoschPage = () => {
               technicians will have your appliance running smoothly. Dishwasher
               Repair: Restore your dishes' sparkle with our trusted dishwasher
               repair service in the UAE.LG Service Center Dubai: We are
-              dedicated to providing high-quality service and repairs for
-              LG kitchen appliances. Our services cover a wide range of
-              LG kitchen appliances, including fridges, cooking ranges,
-              dishwashers, microwaves, and more. We have a proven track record
-              of success, excellent customer service, and many satisfied
-              customers.You can trust our well-trained technicians to deliver
-              professional and reliable LG repairs, making sure your
-              appliances are in capable hands. LG Service Center in Abu
-              Dhabi: Our LG Service Team is here for you no matter what, no
-              matter when. Whether you need help with your LG service
-              center, we've got you covered. LG washing machines are known
-              for using less water, energy, and detergent, so you can rely on
-              LG Customer Care as the best place to fix your home
+              dedicated to providing high-quality service and repairs for LG
+              kitchen appliances. Our services cover a wide range of LG kitchen
+              appliances, including fridges, cooking ranges, dishwashers,
+              microwaves, and more. We have a proven track record of success,
+              excellent customer service, and many satisfied customers.You can
+              trust our well-trained technicians to deliver professional and
+              reliable LG repairs, making sure your appliances are in capable
+              hands. LG Service Center in Abu Dhabi: Our LG Service Team is here
+              for you no matter what, no matter when. Whether you need help with
+              your LG service center, we've got you covered. LG washing machines
+              are known for using less water, energy, and detergent, so you can
+              rely on LG Customer Care as the best place to fix your home
               appliances.{" "}
               <span className="text-lg font-bold">
                 Simply call us or send a WhatsApp message to book your
@@ -422,13 +417,13 @@ const BoschPage = () => {
                 including washing machines, dishwashers, fridges, dryers, and
                 all electrical home appliances.
               </span>{" "}
-              We aim to fix your machine the same day. LG Service Center
-              Dubai: We strive to provide our customers with the best repair and
+              We aim to fix your machine the same day. LG Service Center Dubai:
+              We strive to provide our customers with the best repair and
               maintenance services. Our professionals are skilled at repairing
-              all models of LG washing machines and have access to
-              cutting-edge equipment for maintaining and repairing LG
-              appliances. No Extra Charges: We don't charge extra. We provide
-              reliable and quick repair services."
+              all models of LG washing machines and have access to cutting-edge
+              equipment for maintaining and repairing LG appliances. No Extra
+              Charges: We don't charge extra. We provide reliable and quick
+              repair services."
             </p>
             <div className="flex flex-col mt-6 md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
               <button
@@ -437,7 +432,7 @@ const BoschPage = () => {
                   window.location.href = `tel:${phoneNumber}`;
                 }}
               >
-                {phoneNumber}
+                Call Us{" "}
               </button>
               <button
                 className="px-5 py-4 bg-[#F8860D] text-black font-extrabold hover:text-black hover:text-lg hover:bg-[white] rounded duration-200 shadow-md"
@@ -577,9 +572,9 @@ const BoschPage = () => {
                 <div className="sm:w-[170px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Providing top-notch, expert solutions to ensure the optimal
-                    performance of LG dishwasher. Our Dishwasher Repair
-                    Service is your dependable choice for all your dishwasher
-                    repair needs."
+                    performance of LG dishwasher. Our Dishwasher Repair Service
+                    is your dependable choice for all your dishwasher repair
+                    needs."
                   </p>
                 </div>
 
@@ -621,9 +616,9 @@ const BoschPage = () => {
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that ensure the
-                    optimal performance of your LG gas cooker/stove. Our
-                    Gas Cooker/Stove Repair Service is your trusted partner for
-                    all your gas cooker/stove repair needs."
+                    optimal performance of your LG gas cooker/stove. Our Gas
+                    Cooker/Stove Repair Service is your trusted partner for all
+                    your gas cooker/stove repair needs."
                   </p>
                 </div>
 
@@ -665,9 +660,9 @@ const BoschPage = () => {
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
                     "Delivering top-tier, professional solutions that ensure the
-                    optimal performance of your LG Fridge/Refrigerator
-                    Repair. Our Refrigerator Repair Service is your trusted
-                    partner for all your gas cooker/stove repair needs."
+                    optimal performance of your LG Fridge/Refrigerator Repair.
+                    Our Refrigerator Repair Service is your trusted partner for
+                    all your gas cooker/stove repair needs."
                   </p>
                 </div>
 
