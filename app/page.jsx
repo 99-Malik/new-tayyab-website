@@ -47,7 +47,7 @@ const BoschPage = () => {
                   window.location.href = `tel:${phoneNumber}`;
                 }}
               >
-                {phoneNumber}
+                Call Us
               </button>
               <button
                 className="px-5 py-4 bg-[#F8860D] hover:scale-110  text-black font-bold hover:bg-[white] hover:text-black hover:font-bold rounded-lg duration-200 shadow-md"
@@ -302,7 +302,7 @@ const BoschPage = () => {
               </div>
               <div className="card-body bg-[#002B3D]">
                 <h2 className="card-title text-[#F8860D] hover:scale-110 font-bold duration-300 hover:cursor-pointer">
-                 Samsung Washing Machine Repair
+                Washing Machine Repair
                 </h2>
                 <div className="sm:w-[200px] text-start text-white  md:w-[500px] h-auto">
                   <p>
@@ -346,7 +346,7 @@ const BoschPage = () => {
               </div>
               <div className="card-body bg-[#002B3D]">
                 <h2 className="card-title text-[#F8860D] hover:scale-110 font-bold duration-300 hover:cursor-pointer">
-                 Samsung Washing Dryer Repair
+                Washing Dryer Repair
                 </h2>
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
@@ -390,7 +390,7 @@ const BoschPage = () => {
               </div>
               <div className="card-body bg-[#002B3D]">
                 <h2 className="card-title text-[#F8860D] hover:scale-110 font-bold duration-300 hover:cursor-pointer">
-                 Samsung Dishwasher Repair
+                Dishwasher Repair
                 </h2>
                 <div className="sm:w-[170px] text-white  md:w-[500px] h-auto">
                   <p>
@@ -434,7 +434,7 @@ const BoschPage = () => {
               </div>
               <div className="card-body bg-[#002B3D]">
                 <h2 className="card-title text-[#F8860D] hover:scale-110 font-bold duration-300 hover:cursor-pointer">
-                 Samsung Gas Cooker/Stove Repair
+                Gas Cooker/Stove Repair
                 </h2>
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
@@ -478,7 +478,7 @@ const BoschPage = () => {
               </div>
               <div className="card-body bg-[#002B3D]">
                 <h2 className="card-title text-[#F8860D] hover:scale-110 font-bold duration-300 hover:cursor-pointer">
-                  Samsung Fridge/Refrigerator Repair
+                Fridge/Refrigerator Repair
                 </h2>
                 <div className="sm:w-[200px] text-white  md:w-[500px] h-auto">
                   <p>
