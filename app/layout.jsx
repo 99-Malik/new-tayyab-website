@@ -21,43 +21,25 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 
-  return (
-    <html lang="en">
+  return <html lang="en">
       {/* <!--  ClickCease.com tracking--> */}
-      <Script
-        type="text/javascript"
-        async
-        dangerouslySetInnerHTML={{
-          __html: `
+      <Script type="text/javascript" async dangerouslySetInnerHTML={{ __html: `
           var script = document.createElement('script'); script.async = true;
           script.type = 'text/javascript'; var target =
           'https://www.clickcease.com/monitor/stat.js'; script.src = target;var
           elem = document.head;elem.appendChild(script);
-          `,
-        }}
-      />
+          ` }} />
       {/* Google Tag Manager - Global base code */}
-      <Script
-        id="gtag-base"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
+      <Script id="gtag-base" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtag/js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer', '${GTM_ID}');
-          `,
-        }}
-      />
+          ` }} />
       <body className={inter.className}>
         <noscript>
-          <iframe
-            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
+          <iframe src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`} height="0" width="0" style={{ display: "none", visibility: "hidden" }} />
           {/* <!--  ClickCease.com tracking--> */}
           <a href="https://www.clickcease.com" rel="nofollow">
             <img loading="lazy" src="https://monitor.clickcease.com" alt="ClickCease" />
@@ -66,13 +48,12 @@ export default function RootLayout({ children }) {
         </noscript>
         <Header className="mt-[-10px]" />
         {children}
-        
+
         <FixedCallButtons />
         <Suspense fallback={null}>
           <NavigationEvents />
         </Suspense>
-        <Footer/>
+        <Footer />
       </body>
-    </html>
-  );
+    </html>;
 }
