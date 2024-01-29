@@ -1,4 +1,5 @@
 // Import necessary modules and components
+import Head from "next/head";
 import Header from "../components/header/BoschHeader";
 import "./globals.css";
 import { Inter } from "next/font/google";
@@ -24,23 +25,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         {/* Other head elements... */}
         {/* Google Tag Manager - Global base code */}
         <Script
-          id="gtag-base"
-          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: `
-              (function(w,d,s,l,i){
-                w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});
-                var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-                j.async=true;
-                j.src='https://www.googletagmanager.com/gtag/js?id='+i+dl;
-                f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer', '${GTM_ID}');
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-5X9MZ6FF');
             `
           }}
         />
@@ -49,24 +44,15 @@ export default function RootLayout({ children }) {
           src="https://pulse.clickguard.com/s/accAKdAZtP5Vl/astWa776s9CIj"
         />
         {/* Other head scripts... */}
-      </head>
+      </Head>
       <body className={inter.className}>
         <noscript>
           <iframe
-            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5X9MZ6FF"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
           />
-          {/* ClickCease.com tracking */}
-          {/* <a href="https://www.clickcease.com" rel="nofollow">
-            <img
-              loading="lazy"
-              src="https://monitor.clickcease.com"
-              alt="ClickCease"
-            />
-          </a> */}
-          {/* ClickCease.com tracking */}
         </noscript>
         <Header className="mt-[-10px]" />
         {children}
