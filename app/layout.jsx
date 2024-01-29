@@ -43,6 +43,22 @@ export default function RootLayout({ children }) {
           defer
           src="https://pulse.clickguard.com/s/accAKdAZtP5Vl/astWa776s9CIj"
         />
+        {/* Google tag (gtag.js) */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=GT-KFTQ5FS"
+        />
+        <Script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'GT-KFTQ5FS');
+            `
+          }}
+        />
         {/* Other head scripts... */}
       </Head>
       <body className={inter.className}>
