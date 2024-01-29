@@ -10,7 +10,7 @@ export function NavigationEvents() {
   useEffect(() => {
     const url = pathname;
     console.log("URLLLLL", url);
-    pageview(url);
+    // pageview(url);
   }, [pathname]);
 
   return null;
