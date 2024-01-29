@@ -24,16 +24,15 @@ export const metadata = {
 // Main layout component
 export default function RootLayout({ children }) {
   return <html lang="en">
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=GT-KFTQ5FS" />
-      <Script dangerouslySetInnerHTML={{ __html: `
+      <Head>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=GT-KFTQ5FS" />
+        <Script dangerouslySetInnerHTML={{ __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
 
               gtag('config', 'GT-KFTQ5FS');
             ` }} />
-
-      <Head>
         {/* Other head elements... */}
         {/* Google Tag Manager - Global base code */}
         <Script dangerouslySetInnerHTML={{ __html: `
