@@ -1,3 +1,5 @@
+// layout.jsx
+
 import Head from "next/head";
 import Header from "../components/header/BoschHeader";
 import "./globals.css";
@@ -20,22 +22,37 @@ export const metadata = {
   creator: "cyhammad"
 };
 
+// Define gtag_report_conversion if window is defined
+
+
+
 // Main layout component
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=GT-KFTQ5FS" />
-        <Script dangerouslySetInnerHTML={{ __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
+      <head>
+        {/* Include gtag.js script */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=GT-KFTQ5FS"
+        />
 
-              gtag('config', 'GT-KFTQ5FS');
-            ` }} />
-        
+        {/* Include gtag.js initialization script */}
+        <Script
+          dangerouslySetInnerHTML={{
+            __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'GT-KFTQ5FS');
+        `
+          }}
+        />
+
         {/* Include gtag_report_conversion script */}
-        <Script dangerouslySetInnerHTML={{ __html: `
+        <Script
+          dangerouslySetInnerHTML={{
+            __html: `
           function gtag_report_conversion(url) {
             var callback = function () {
               if (typeof(url) != 'undefined') {
@@ -48,21 +65,31 @@ export default function RootLayout({ children }) {
             });
             return false;
           }
-        ` }} />
-        
+        `
+          }}
+        />
+
         {/* Other head elements... */}
         {/* Google Tag Manager - Global base code */}
-        <Script dangerouslySetInnerHTML={{ __html: `
-              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-5X9MZ6FF');
-            ` }} />
-        <Script defer src="https://pulse.clickguard.com/s/accAKdAZtP5Vl/astWa776s9CIj" />
+        <Script
+          dangerouslySetInnerHTML={{
+            __html: `
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-5X9MZ6FF');
+        `
+          }}
+        />
+
+        <Script
+          defer
+          src="https://pulse.clickguard.com/s/accAKdAZtP5Vl/astWa776s9CIj"
+        />
         {/* Google tag (gtag.js) */}
         {/* Other head scripts... */}
-      </Head>
+      </head>
       <body className={inter.className}>
         <noscript>
           <iframe

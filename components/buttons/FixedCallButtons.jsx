@@ -15,10 +15,10 @@ const FixedCallButtons = () => {
         window.location = url;
       }
     };
-    gtag("event", "conversion", {
-      send_to: `${GTM_ID}/sxVbCLOniLwYEP671N0p`,
-      event_callback: callback,
-    });
+   gtag("event", "conversion", {
+     send_to: "AW-11336173490/ms1BCO3F1o0ZELKPwZ0q",
+     event_callback: callback
+   });
     return false;
   }
   return (
