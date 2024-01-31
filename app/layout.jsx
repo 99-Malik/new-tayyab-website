@@ -1,4 +1,3 @@
-// Import necessary modules and components
 import Head from "next/head";
 import Header from "../components/header/BoschHeader";
 import "./globals.css";
@@ -17,13 +16,14 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "RepairHomeUAE | Home Appliance Repair Service",
   description:
-    "RepairHomeUAE is a leading home appliance repair company in Dubai and Abu Dhabi. We offer repair services for Samsung, Bosch, Lg and Siemens appliances.",
+    "RepairHomeUAE is a leading home appliance repair company in Dubai and Abu Dhabi. We offer repair services for Samsung, Bosch, Lg, and Siemens appliances.",
   creator: "cyhammad"
 };
 
 // Main layout component
 export default function RootLayout({ children }) {
-  return <html lang="en">
+  return (
+    <html lang="en">
       <Head>
         <Script async src="https://www.googletagmanager.com/gtag/js?id=GT-KFTQ5FS" />
         <Script dangerouslySetInnerHTML={{ __html: `
@@ -33,6 +33,23 @@ export default function RootLayout({ children }) {
 
               gtag('config', 'GT-KFTQ5FS');
             ` }} />
+        
+        {/* Include gtag_report_conversion script */}
+        <Script dangerouslySetInnerHTML={{ __html: `
+          function gtag_report_conversion(url) {
+            var callback = function () {
+              if (typeof(url) != 'undefined') {
+                window.location = url;
+              }
+            };
+            gtag('event', 'conversion', {
+              'send_to': 'AW-11336173490/ms1BCO3F1o0ZELKPwZ0q',
+              'event_callback': callback
+            });
+            return false;
+          }
+        ` }} />
+        
         {/* Other head elements... */}
         {/* Google Tag Manager - Global base code */}
         <Script dangerouslySetInnerHTML={{ __html: `
@@ -48,7 +65,12 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={inter.className}>
         <noscript>
-          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X9MZ6FF" height="0" width="0" style={{ display: "none", visibility: "hidden" }} />
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5X9MZ6FF"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
         </noscript>
         <Header className="mt-[-10px]" />
         {children}
@@ -58,5 +80,6 @@ export default function RootLayout({ children }) {
         </Suspense>
         <Footer />
       </body>
-    </html>;
+    </html>
+  );
 }

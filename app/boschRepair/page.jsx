@@ -47,6 +47,7 @@ const BoschPage = () => {
                 className="px-5 py-4 bg-[#F8860D] hover:scale-110  text-black font-bold hover:bg-[white] hover:text-black hover:font-bold rounded-lg duration-200 shadow-md"
                 onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
+                  gtag_report_conversion(`tel:${phoneNumber}`);
                 }}
               >
                 Call Us{" "}
@@ -188,6 +189,7 @@ const BoschPage = () => {
                 className="btn btn-info-content bg-[#F8860D] font-extrabold text-black hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
                 onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
+                  gtag_report_conversion(`tel:${phoneNumber}`);
                 }}
               >
                 Call Now
@@ -375,6 +377,7 @@ const BoschPage = () => {
                 className="btn btn-info-content font-extrabold bg-[#F8860D] text-black hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  "
                 onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
+                  gtag_report_conversion(`tel:${phoneNumber}`);
                 }}
               >
                 Call Now
@@ -432,6 +435,7 @@ const BoschPage = () => {
                 className="px-5 py-4 bg-[#F8860D] font-extrabold text-black hover:text-black hover:text-lg hover:bg-[white] rounded duration-200 shadow-md"
                 onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
+                  gtag_report_conversion(`tel:${phoneNumber}`);
                 }}
               >
                 Call Us
@@ -497,6 +501,7 @@ const BoschPage = () => {
                     className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-black hover:bg-white mt-3  "
                     onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
+                      gtag_report_conversion(`tel:${phoneNumber}`);
                     }}
                   >
                     Call Us
@@ -541,6 +546,7 @@ const BoschPage = () => {
                     className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-black hover:bg-white mt-3  "
                     onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
+                      gtag_report_conversion(`tel:${phoneNumber}`);
                     }}
                   >
                     Call Us
@@ -585,6 +591,7 @@ const BoschPage = () => {
                     className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-black hover:bg-white mt-3  "
                     onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
+                      gtag_report_conversion(`tel:${phoneNumber}`);
                     }}
                   >
                     Call Us
@@ -629,6 +636,7 @@ const BoschPage = () => {
                     className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-black hover:bg-white mt-3  "
                     onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
+                      gtag_report_conversion(`tel:${phoneNumber}`);
                     }}
                   >
                     Call Us
@@ -673,6 +681,7 @@ const BoschPage = () => {
                     className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-black hover:bg-white mt-3  "
                     onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
+                      gtag_report_conversion(`tel:${phoneNumber}`);
                     }}
                   >
                     Call Us

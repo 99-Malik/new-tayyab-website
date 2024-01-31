@@ -38,6 +38,7 @@ const BoschPage = () => {
             <div className="flex flex-col md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
               <button className="px-5 py-4 bg-[#F8860D] hover:scale-110  text-black font-bold hover:bg-[white] hover:text-black hover:font-bold rounded-lg duration-200 shadow-md" onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
+                  gtag_report_conversion(`tel:${phoneNumber}`);
                 }}>
                 {phoneNumber}
               </button>
@@ -131,6 +132,7 @@ const BoschPage = () => {
               </p>
               <button className="btn btn-info-content bg-[#F8860D] font-extrabold text-black hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  " onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
+                  gtag_report_conversion(`tel:${phoneNumber}`);
                 }}>
                 Call Now
               </button>
@@ -277,6 +279,7 @@ const BoschPage = () => {
               </p>
               <button className="btn btn-info-content font-extrabold bg-[#F8860D] text-black hover:text-black hover:bg-white hover:scale-110 duration-200 shadow-md  " onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
+                  gtag_report_conversion(`tel:${phoneNumber}`);
                 }}>
                 Call Now
               </button>
@@ -300,6 +303,7 @@ const BoschPage = () => {
             <div className="flex flex-col mt-6 md:flex-row md:gap-x-10 md:justify-start md:px-0 justify-center gap-y-2 px-10">
               <button className="px-5 py-4 bg-[#F8860D] font-extrabold text-black hover:text-black hover:text-lg hover:bg-[white] rounded duration-200 shadow-md" onClick={() => {
                   window.location.href = `tel:${phoneNumber}`;
+                  gtag_report_conversion(`tel:${phoneNumber}`);
                 }}>
                 {phoneNumber}
               </button>
@@ -357,6 +361,7 @@ const BoschPage = () => {
                 <div className="card-actions justify-end">
                   <button className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-black hover:bg-white mt-3  " onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
+                      gtag_report_conversion(`tel:${phoneNumber}`);
                     }}>
                     Call Us
                   </button>
@@ -393,6 +398,7 @@ const BoschPage = () => {
                 <div className="card-actions justify-end">
                   <button className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-black hover:bg-white mt-3  " onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
+                      gtag_report_conversion(`tel:${phoneNumber}`);
                     }}>
                     Call Us
                   </button>
@@ -429,6 +435,7 @@ const BoschPage = () => {
                 <div className="card-actions justify-end">
                   <button className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-black hover:bg-white mt-3  " onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
+                      gtag_report_conversion(`tel:${phoneNumber}`);
                     }}>
                     Call Us
                   </button>
@@ -465,6 +472,7 @@ const BoschPage = () => {
                 <div className="card-actions justify-end">
                   <button className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-black hover:bg-white mt-3  " onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
+                      gtag_report_conversion(`tel:${phoneNumber}`);
                     }}>
                     Call Us
                   </button>
@@ -502,6 +510,7 @@ const BoschPage = () => {
                 <div className="card-actions justify-end">
                   <button className="btn btn-neutral bg-[#F8860D] hover:scale-110 duration-300 text-black hover:bg-white mt-3  " onClick={() => {
                       window.location.href = `tel:${phoneNumber}`;
+                      gtag_report_conversion(`tel:${phoneNumber}`);
                     }}>
                     Call Us
                   </button>
