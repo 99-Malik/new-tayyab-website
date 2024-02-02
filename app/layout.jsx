@@ -28,31 +28,21 @@ export const metadata = {
 
 // Main layout component
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
+  return <html lang="en">
       <head>
         {/* Include gtag.js script */}
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=GT-KFTQ5FS"
-        />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=GT-KFTQ5FS" />
 
         {/* Include gtag.js initialization script */}
-        <Script
-          dangerouslySetInnerHTML={{
-            __html: `
+        <Script dangerouslySetInnerHTML={{ __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'GT-KFTQ5FS');
-        `
-          }}
-        />
+        ` }} />
 
         {/* Include gtag_report_conversion script */}
-        <Script
-          dangerouslySetInnerHTML={{
-            __html: `
+        <Script dangerouslySetInnerHTML={{ __html: `
           function gtag_report_conversion(url) {
             var callback = function () {
               if (typeof(url) != 'undefined') {
@@ -65,39 +55,38 @@ export default function RootLayout({ children }) {
             });
             return false;
           }
-        `
-          }}
-        />
+        ` }} />
 
         {/* Other head elements... */}
         {/* Google Tag Manager - Global base code */}
-        <Script
-          dangerouslySetInnerHTML={{
-            __html: `
+        <Script dangerouslySetInnerHTML={{ __html: `
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','GTM-5X9MZ6FF');
-        `
-          }}
-        />
+        ` }} />
 
-        <Script
-          defer
-          src="https://pulse.clickguard.com/s/accAKdAZtP5Vl/astWa776s9CIj"
-        />
+        <Script type="text/javascript" async dangerouslySetInnerHTML={{ __html: `
+            var script = document.createElement('script');
+            script.async = true;
+            script.type = 'text/javascript';
+            var target = 'https://www.clickcease.com/monitor/stat.js';
+            script.src = target;
+            var elem = document.head;
+            elem.appendChild(script);
+          ` }} />
         {/* Google tag (gtag.js) */}
         {/* Other head scripts... */}
       </head>
       <body className={inter.className}>
         <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-5X9MZ6FF"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
+          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X9MZ6FF" height="0" width="0" style={{ display: "none", visibility: "hidden" }} />
+          {/* <!--  ClickCease.com tracking--> */}
+          <a href="https://www.clickcease.com" rel="nofollow">
+            <img src="https://monitor.clickcease.com" alt="ClickCease" />
+          </a>
+          {/* <!--  ClickCease.com tracking--> */}
         </noscript>
         <Header className="mt-[-10px]" />
         {children}
@@ -107,6 +96,5 @@ export default function RootLayout({ children }) {
         </Suspense>
         <Footer />
       </body>
-    </html>
-  );
+    </html>;
 }
