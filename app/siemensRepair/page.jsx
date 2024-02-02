@@ -26,11 +26,11 @@ const BoschPage = () => {
               <span className="text-[#F8860D] font-bold">
                 RepairHomeUAE
               </span> <span>
-                Siemens Appliances Service Center in Abu Dhabi
+                Siemens Appliances Service Center in UAE
               </span>
             </h1>
             <p className=" text-md text-center py-2 font-raleway text-white">
-              Repair Home UAE is a reliable Siemens service center in Dubai
+              Repair Home UAE is an authorized Siemens service center in Dubai
               and Abu Dhabi, you can rest assured that your appliance will be
               fixed quickly and efficiently with the highest quality parts
               available.

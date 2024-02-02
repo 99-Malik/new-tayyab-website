@@ -15,10 +15,10 @@ const FixedCallButtons = () => {
         window.location = url;
       }
     };
-   gtag("event", "conversion", {
-     send_to: "AW-11336173490/ms1BCO3F1o0ZELKPwZ0q",
-     event_callback: callback
-   });
+   gtag('event', 'conversion', {
+              'send_to': 'AW-11336173490/ms1BCO3F1o0ZELKPwZ0q',
+              'event_callback': callback
+            });
     return false;
   }
   return (
@@ -34,7 +34,6 @@ const FixedCallButtons = () => {
         href={`//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`}
         target="_blank"
         className="btn btn-circle btn-lg bg-green-500 border-none hover:bg-green-600"
-        onClick={() => gtag_report_conversion(pathname)}
       >
         <Image src="/whatsapp.svg" loading="lazy" width={45} height={45} alt="WhatsApp" />
       </a>
