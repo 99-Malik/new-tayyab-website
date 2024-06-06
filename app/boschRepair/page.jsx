@@ -18,7 +18,7 @@ const BoschPage = () => {
       <path strokeLinecap="round" strokeLinejoin="round" d="M15.232 5.232l3.536 3.536m-2.829-1.414a4 4 0 11-5.657 5.657L6 18H4v-2l7.071-7.071a4 4 0 015.657-5.657z" />
     </svg>;
 
-  const services = ["BOSH Washing Machine Repair", "BOSH Refrigerator Service Centre", "BOSH Stove Service Centre", "BOSH Oven Service Centre", "BOSH Dryer Service Centre", "BOSH Dishwasher Service Centre", "BOSH Cooking range service center", "BOSH washer service center", "BOSH dubai service center", "BOSH service centre near me", "BOSH Cooker Repair service centre"];
+  const services = ["Bosch Washing Machine Repair", "Bosch Refrigerator Service Centre", "Bosch Stove Service Centre", "Bosch Oven Service Centre", "Bosch Dryer Service Centre", "Bosch Dishwasher Service Centre", "Bosch Cooking range service center", "Bosch washer service center", "Bosch dubai service center", "Bosch service centre near me", "Bosch Cooker Repair service centre"];
 
   return <div>
       {/* MAIN SECTION */}
@@ -38,7 +38,7 @@ const BoschPage = () => {
               Dhabi
             </p>
             <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 p-4 text-white">
-              {["Bosch Washing Machine Repair", "Bosch Dryer Repair", "Bosch Dryer Repair", "Bosch Dishwasher Repair", "Bosch Oven Repair"].map(
+              {["Bosch Washing Machine Repair", "Bosch Fridge Repair", "Bosch Dryer Repair", "Bosch Dishwasher Repair", "Bosch Oven Repair"].map(
                 (point, index) =>
                   <div key={index} className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-white rounded-full" />
@@ -300,7 +300,7 @@ const BoschPage = () => {
         <div className="hero-content flex-col lg:flex-row">
           <div>
             <h1 className="text-xl font-semibold">
-              BOSH SERVICE CUSTOMER SUPPORT DUBAI 24/7 BOSCH CUSTOMER CARE
+              Bosch SERVICE CUSTOMER SUPPORT DUBAI 24/7 BOSCH CUSTOMER CARE
               DUBAI. CALL US NOW, WE HAVE MULTIPLE LOCATIONS NEAR YOU.{" "}
             </h1>
             <p className="py-2">
