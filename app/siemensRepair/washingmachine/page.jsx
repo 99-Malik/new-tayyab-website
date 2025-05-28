@@ -153,7 +153,7 @@ const BoschPage = () => {
           </div>
           <div>
             <h1 className="text-3xl font-bold max-w-xl">
-              Repair Home UAE in Dubai and Abu Dhabi knowing all the quality,
+              Appliance Fix AE in Dubai and Abu Dhabi knowing all the quality,
               reliability, and functionality standers provide you the best Siemens
               Washing Machine Repair Service.
             </h1>
@@ -169,7 +169,7 @@ const BoschPage = () => {
             </div>
             <p className="py-6 text-md max-w-xl">
               <h1 className="text-lg font-bold max-w-xl">
-                Repair Home UAE in Dubai & Abu Dhabi offers guaranteed Siemens
+                Appliance Fix AE in Dubai & Abu Dhabi offers guaranteed Siemens
                 washing machine repair. Our company is a quality conscious
                 company, so we always provide guaranteed services. As our
                 customers trust us so we never like to lose our trust.

@@ -24,7 +24,7 @@ const ContactPage = () => {
         <div className="text-center lg:text-left md:ml-10 mt-[15px]">
           <h1 className="text-3xl font-bold text-[#F8860D]">Contact Us!</h1>
           <p className="py-6 text-white text-bold">
-            Repair Home UAE is an authorized appliances service center in UAE, you can rest assured that your appliance will be fixed quickly and efficiently with the highest quality parts available. appliance repair needs, don't hesitate to contact us today! <br /> We are available 24/7 to serve you.
+            Appliance Fix AE is an authorized appliances service center in UAE, you can rest assured that your appliance will be fixed quickly and efficiently with the highest quality parts available. appliance repair needs, don't hesitate to contact us today! <br /> We are available 24/7 to serve you.
           </p>
         </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-[#202020]">

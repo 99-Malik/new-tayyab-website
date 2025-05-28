@@ -30,7 +30,7 @@ const BoschPage = () => {
               </span>
             </h1>
             <p className=" text-md text-center py-2 font-raleway text-white">
-              Repair Home UAE is an authorized Siemens service center in Dubai
+              Appliance Fix AE is an authorized Siemens service center in Dubai
               and Abu Dhabi, you can rest assured that your appliance will be
               fixed quickly and efficiently with the highest quality parts
               available.
@@ -159,7 +159,7 @@ const BoschPage = () => {
           </div>
           <div>
             <h1 className="text-2xl font-bold max-w-xl mt-2">
-              Repair Home UAE in Dubai and Abu Dhabi provides you the best
+              Appliance Fix AE in Dubai and Abu Dhabi provides you the best
               Siemens Repair Service.
             </h1>
             <div className="flex gap-10 pt-5 flex-col sm:flex-row">

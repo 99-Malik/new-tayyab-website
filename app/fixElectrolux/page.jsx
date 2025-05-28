@@ -39,7 +39,7 @@ const BoschPage = () => {
               <span>Electrolux Appliances Service Center</span>
             </h1>
             <p className=" text-md py-5 font-raleway text-white">
-              Repair Home UAE is a Electrolux Service Centre in Dubai
+              Appliance Fix AE is a Electrolux Service Centre in Dubai
               and Abu Dhabi. Trust our well-trained technicians to deliver
               professional & reliable Electrolux repairs ensuring your appliances
               are in capable hands.Electrolux Dishwasher Repair, Dryer,Washing
@@ -228,7 +228,7 @@ const BoschPage = () => {
           </div>
           <div>
             <h1 className="text-4xl font-bold max-w-xl">
-              Welcome To Repair Home UAE Electrolux Service Center
+              Welcome To Appliance Fix AE Electrolux Service Center
             </h1>
             <div className="flex gap-10 pt-5 flex-col sm:flex-row">
               <div className="flex items-center gap-1">
@@ -277,7 +277,7 @@ const BoschPage = () => {
                 We Provide Repairing Servies In Areas OF Dubai and Abu Dhabi!
               </h1>
               <p className="py-6 text-black">
-                Repair Home UAE Center Dubai is dedicated to providing
+                Appliance Fix AE Center Dubai is dedicated to providing
                 high-quality service and repairs of All Home and kitchen
                 appliances. We provide repair services for all kinds of Home and
                 kitchen appliances, including fridges, cooking ranges,
