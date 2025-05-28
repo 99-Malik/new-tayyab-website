@@ -84,7 +84,7 @@ const BoschPage = () => {
             </svg>
 
             <h1 className="text-xl mt-2 font-bold text-[#F8860D]">
-              Call US AnyTime
+              Call Us AnyTime
             </h1>
 
             <h1 className="p-2 md:p-2 font-bold text-[#F8860D]">
