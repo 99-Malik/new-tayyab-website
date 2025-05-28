@@ -40,10 +40,10 @@ const Footer = ({color, company}) => {
                 />
               </svg>
 
-              <h1 className="text-white text-xl">RepairHome</h1>
+              <h1 className="text-white text-xl">Appliance Fix</h1>
               <span>
                 <h1 className="text-[#F8860D] text-xl ml-[-2px] mt-0.5 font-extrabold">
-                  UAE
+                  AE
                 </h1>
               </span>
             </div>
