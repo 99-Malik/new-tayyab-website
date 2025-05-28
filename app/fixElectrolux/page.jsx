@@ -34,7 +34,7 @@ const BoschPage = () => {
           <div>
             <h1 className="text-4xl  font-raleway text-white leading-tight">
               <span className="text-[#F8860D] font-bold">
-                RepairHomeUAE
+                Appliance Fix AE
               </span>{' '}
               <span>Electrolux Appliances Service Center</span>
             </h1>
@@ -176,12 +176,12 @@ const BoschPage = () => {
               </h1>
               <p className="py-12 text-md px-4 font-semibold text-white">
                 "Discover the pinnacle of appliance repair expertise at
-                RepairHomeUAE, Electrolux Appliance Repair in Dubai and Abu Dhabi. We specialize in the repair
+                Appliance Fix AE, Electrolux Appliance Repair in Dubai and Abu Dhabi. We specialize in the repair
                 and maintenance of essential household appliances, including
                 washing machines, dishwashers, dryers, and gas stoves/cookers.
                 Our skilled technicians are committed to delivering professional
                 and reliable services, ensuring that your appliances function
-                seamlessly. At RepairHomeUAE, we stand as your trusted partner,
+                seamlessly. At Appliance Fix AE, we stand as your trusted partner,
                 providing top-tier solutions to meet your every repair need.
                 Experience the difference in service excellence with us."
               </p>

@@ -141,7 +141,7 @@ const BoschHeader = () => {
                 />
               </svg>
 
-              <h1 className="text-white text-xl">RepairHome</h1><span><h1 className="text-[#F8860D] text-xl ml-[-2px] mt-0.5 font-extrabold">UAE</h1></span>
+              <h1 className="text-white text-xl">Appliace Fix</h1><span><h1 className="text-[#F8860D] text-xl ml-[-2px] mt-0.5 font-extrabold">AE</h1></span>
             </Link>
           </div>
           <div className="navbar-end hidden lg:flex z-50 text-info-content font-extrabold">

@@ -33,7 +33,7 @@ const BoschPage = () => {
           <div>asher
             <h1 className="text-4xl  font-raleway text-white leading-tight">
               <span className="text-[#F8860D] font-bold">
-                RepairHomeUAE
+                Appliance Fix AE
               </span>{" "}
               <span>
                 Siemens Appliances Service Center a Best Stove/Cooking Range Repair

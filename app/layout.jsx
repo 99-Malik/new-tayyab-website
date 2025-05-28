@@ -16,9 +16,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 // Metadata for the HTML document
 export const metadata = {
-  title: "RepairHomeUAE | Home Appliance Repair Service",
+  title: "Appliance Fix AE | Home Appliance Repair Service",
   description:
-    "RepairHomeUAE is a leading home appliance repair company in Dubai and Abu Dhabi. We offer repair services for Samsung, Bosch, Lg, and Siemens appliances.",
+    "Appliance Fix AE is a leading home appliance repair company in Dubai and Abu Dhabi. We offer repair services for Samsung, Bosch, Lg, and Siemens appliances.",
   creator: "cyhammad"
 };
 
