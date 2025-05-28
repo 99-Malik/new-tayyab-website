@@ -25,7 +25,7 @@ const ContactPage = () => {
         <div className="text-center lg:text-left md:ml-10">
           <h1 className="text-4xl font-bold text-[#F8860D] mt-[100px]">PRivacy Policy!</h1>
           <p className="py-6 text-white text-bold">
-            Privacy Policy: At RepairHome UAE, we value your privacy and are
+            Privacy Policy: At Appliance Fix AE, we value your privacy and are
             dedicated to safeguarding your personal information. This Privacy
             Policy outlines how we collect, utilize, protect, and share your
             data when you use our website and services. By engaging with our
