@@ -1,82 +1,193 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
-import {PhoneIcon, WrenchScrewdriverIcon} from '@heroicons/react/24/solid';
-import {usePathname, useRouter} from 'next/navigation';
-const Footer = ({color, company}) => {
-  const pathname = usePathname ();
-  const router = useRouter ();
+import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid';
+import { usePathname } from 'next/navigation';
+import phoneNumber from '../../content/phoneNumber';
 
-  if (pathname.startsWith ('/companies')) {
+const Footer = ({ color, company }) => {
+  const pathname = usePathname();
+
+  if (pathname.startsWith('/companies')) {
     return null;
   }
-  return (
-    <footer className="footer flex justify-center mt-[25px] p-7 bg-info-content text-base-200 ">
-      <div className="footer w-full max-w-7xl gap-y-10">
-        <Link href="/">
-          <div
-            className={`flex items-center gap-x-2 text-lg hover:scale-110 duration-300 ${color ? 'text-[' + color + ']' : 'text-primary-focus hover:text-primary'}`}
-          >
-            <div
-              className="btn btn-ghost normal-case sm:text-lg px-1"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-10 h-10  text-white"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 011.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 01-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 01-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 01.12-1.45l.773-.773a1.125 1.125 0 011.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894z"
-                />
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                />
-              </svg>
 
-              <h1 className="text-white text-xl">Appliance Fix</h1>
-              <span>
-                <h1 className="text-[#F8860D] text-xl ml-[-2px] mt-0.5 font-extrabold">
-                  AE
-                </h1>
-              </span>
+  return (
+    <footer className="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white">
+      {/* Main Footer Content */}
+      <div className="max-w-7xl mx-auto px-4 py-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Company Info */}
+          <div className="lg:col-span-2">
+            <Link href="/" className="flex items-center space-x-3 mb-6">
+              <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center shadow-lg">
+                <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                  <div className="w-4 h-4 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-full"></div>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold text-white">Fix Appliances AE</h3>
+                <p className="text-cyan-300 text-sm">Appliance Solutions</p>
+              </div>
+            </Link>
+            
+            <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
+              Your trusted partner for premium appliance repair services across Dubai and Abu Dhabi. 
+              Expert technicians delivering reliable solutions for all major brands including Samsung, 
+              LG, Bosch, Siemens, and Whirlpool.
+            </p>
+            
+            {/* Contact Info */}
+            <div className="space-y-3">
+              <div className="flex items-center space-x-3">
+                <PhoneIcon className="h-5 w-5 text-cyan-400" />
+                <a 
+                  href={`tel:${phoneNumber}`}
+                  className="text-gray-300 hover:text-cyan-400 transition-colors"
+                >
+                  {phoneNumber}
+                </a>
+              </div>
+              <div className="flex items-center space-x-3">
+                <MapPinIcon className="h-5 w-5 text-cyan-400" />
+                <span className="text-gray-300">Dubai & Abu Dhabi, UAE</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <EnvelopeIcon className="h-5 w-5 text-cyan-400" />
+                <span className="text-gray-300">info@fixmasterpro.ae</span>
+              </div>
             </div>
           </div>
-          <p className="max-w-lg p-3">
-            "A company dedicated to excellence in appliance repair and maintenance services
-           of Samsung,Lg,Bosch,Siemens,Electrolux and Whirlpool in Dubai and Abu Dhabi. Our team comprises skilled and
-            experienced technicians committed to delivering professional and
-            reliable service."
-          </p>
-        </Link>
-        <div>
-          <span className="footer-title text-[#F8860D] opacity-100">Services</span>
-          <Link
-            href="#"
-            className="link link-hover"
-          >
-            Washing Machine Repair
-          </Link>
-          <Link href="#" className="link link-hover">
-            Dishwasher Repair
-          </Link>
-          <Link href="#" className="link link-hover">
-            Dryer Repair
-          </Link>
-          <Link href="#" className="link link-hover">
-            Gas Oven Repair
-          </Link>
+
+          {/* Services */}
+          <div>
+            <h4 className="text-lg font-semibold text-white mb-6">Our Services</h4>
+            <ul className="space-y-3">
+              <li>
+                <Link 
+                  href="/services/washing-machine-repair" 
+                  className="text-gray-300 hover:text-cyan-400 transition-colors"
+                >
+                  Washing Machine Repair
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="/services/refrigerator-repair" 
+                  className="text-gray-300 hover:text-cyan-400 transition-colors"
+                >
+                  Refrigerator Repair
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="/services/dishwasher-repair" 
+                  className="text-gray-300 hover:text-cyan-400 transition-colors"
+                >
+                  Dishwasher Repair
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="/services/dryer-repair" 
+                  className="text-gray-300 hover:text-cyan-400 transition-colors"
+                >
+                  Dryer Repair
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="/services/stovecooker-repair" 
+                  className="text-gray-300 hover:text-cyan-400 transition-colors"
+                >
+                  Stove & Cooker Repair
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="/services/television-repair" 
+                  className="text-gray-300 hover:text-cyan-400 transition-colors"
+                >
+                  TV Repair
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Quick Links */}
+          <div>
+            <h4 className="text-lg font-semibold text-white mb-6">Quick Links</h4>
+            <ul className="space-y-3">
+              <li>
+                <Link 
+                  href="/" 
+                  className="text-gray-300 hover:text-cyan-400 transition-colors"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="/about" 
+                  className="text-gray-300 hover:text-cyan-400 transition-colors"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="/contact" 
+                  className="text-gray-300 hover:text-cyan-400 transition-colors"
+                >
+                  Contact Us
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="/privacyPolicy" 
+                  className="text-gray-300 hover:text-cyan-400 transition-colors"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="/terms" 
+                  className="text-gray-300 hover:text-cyan-400 transition-colors"
+                >
+                  Terms of Service
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <span className="footer-title text-[#F8860D] opacity-100">Legal</span>
-          <a className="link link-hover" href="/privacyPolicy">PrivacyPolicy</a>
-          <a className="link link-hover" href="/contact">Contact Us</a>
+      </div>
+
+      {/* Bottom Bar */}
+      <div className="border-t border-gray-700">
+        <div className="max-w-7xl mx-auto px-4 py-6">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <div className="text-gray-400 text-sm">
+              © 2024 Fix Appliances AE. All rights reserved.
+            </div>
+            
+            {/* Social Links */}
+            <div className="flex items-center space-x-6">
+              <a 
+                href={`tel:${phoneNumber}`}
+                className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105"
+              >
+                📞 Call Now
+              </a>
+              <a 
+                href={`//api.whatsapp.com/send?phone=${phoneNumber}&text=Hi, I need appliance repair service.`}
+                target="_blank"
+                className="bg-green-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-green-700 transition-all duration-300 transform hover:scale-105"
+              >
+                💬 WhatsApp
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

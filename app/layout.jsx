@@ -1,7 +1,7 @@
 // layout.jsx
 
 import Head from "next/head";
-import Header from "../components/header/BoschHeader";
+import Header from "../components/header/Header";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Footer from "../components/footer/Footer";
@@ -16,10 +16,18 @@ const inter = Inter({ subsets: ["latin"] });
 
 // Metadata for the HTML document
 export const metadata = {
-  title: "Appliance Fix AE | Home Appliance Repair Service",
+  title: "Fix Appliances AE | Professional Appliance Repair Services",
   description:
-    "Appliance Fix AE is a leading home appliance repair company in Dubai and Abu Dhabi. We offer repair services for Samsung, Bosch, Lg, and Siemens appliances.",
-  creator: "cyhammad"
+    "Fix Appliances AE is a leading appliance repair company in Dubai and Abu Dhabi. Expert technicians providing 24/7 repair services for Samsung, LG, Bosch, Siemens, and all major appliance brands.",
+  creator: "Fix Appliances AE",
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', type: 'image/svg+xml' }
+    ],
+    apple: '/icon.svg',
+  },
+  manifest: '/manifest.js'
 };
 
 // Define gtag_report_conversion if window is defined

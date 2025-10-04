@@ -7,7 +7,7 @@ import phoneNumber from "../../content/phoneNumber";
 import { usePathname } from "next/navigation";
 import { GTM_ID } from "../../lib/gtm";
 
-const SamsungCallWhatsapp = () => {
+const ModernCallWhatsapp = () => {
   const pathname = usePathname();
   function gtag_report_conversion(url) {
     var callback = function () {
@@ -21,36 +21,58 @@ const SamsungCallWhatsapp = () => {
     });
     return false;
   }
+  
   return (
-    <div className="flex flex-col w-full lg:flex-row">
-      <div className="grid flex-grow h-32 card bg-base-100 rounded-box place-items-center">
+    <div className="bg-gradient-to-r from-cyan-50 to-blue-50 rounded-2xl p-8 shadow-lg">
+      <div className="text-center mb-8">
+        <h3 className="text-2xl font-bold text-gray-900 mb-2">Get Instant Service</h3>
+        <p className="text-gray-600">Choose your preferred way to contact us</p>
+      </div>
+      
+      <div className="grid md:grid-cols-2 gap-6">
+        {/* Call Button */}
         <a
           href={`tel:${phoneNumber}`}
-          className="flex items-center gap-2 hover:scale-105 duration-300 cursor-pointer"
+          className="group bg-gradient-to-r from-cyan-500 to-blue-600 text-white p-6 rounded-2xl hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
           onClick={() => gtag_report_conversion(pathname)}
         >
-          <div className="p-4 bg-neutral-focus rounded-full">
-            <PhoneIcon className="h-6 w-6 text-white" />
+          <div className="flex items-center space-x-4">
+            <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <PhoneIcon className="h-6 w-6 text-white" />
+            </div>
+            <div>
+              <div className="font-semibold text-lg">Call Now</div>
+              <div className="text-cyan-100 text-sm">{phoneNumber}</div>
+            </div>
           </div>
-          <div className="text-lg font-medium">{phoneNumber}</div>
+        </a>
+        
+        {/* WhatsApp Button */}
+        <a
+          href={`//api.whatsapp.com/send?phone=${phoneNumber}&text=Hi, I need appliance repair service.`}
+          target="_blank"
+          className="group bg-gradient-to-r from-green-500 to-green-600 text-white p-6 rounded-2xl hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+          onClick={() => gtag_report_conversion(pathname)}
+        >
+          <div className="flex items-center space-x-4">
+            <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <Image src="/whatsapp.svg" width={24} height={24} alt="WhatsApp" />
+            </div>
+            <div>
+              <div className="font-semibold text-lg">WhatsApp</div>
+              <div className="text-green-100 text-sm">Quick Response</div>
+            </div>
+          </div>
         </a>
       </div>
-      <div className="divider lg:divider-horizontal">OR</div>
-      <div className="grid flex-grow h-32 card bg-base-100 rounded-box place-items-center">
-        <div className="flex items-center gap-2 hover:scale-105 duration-300 cursor-pointer">
-          <a
-            href={`//api.whatsapp.com/send?phone=${phoneNumber}&text=Hey, I want Home Appliance Repair Service.`}
-            target="_blank"
-            className="p-[0.9rem] bg-neutral-focus rounded-full"
-            onClick={() => gtag_report_conversion(pathname)}
-          >
-            <Image src="/whatsapp.svg" width={30} height={30} alt="WhatsApp" />
-          </a>
-          <div className="text-lg font-medium">Whatsapp Us</div>
-        </div>
+      
+      <div className="mt-6 text-center">
+        <p className="text-sm text-gray-500">
+          📞 Available 24/7 • 🚀 Same Day Service • ✅ Certified Technicians
+        </p>
       </div>
     </div>
   );
 };
 
-export default SamsungCallWhatsapp;
+export default ModernCallWhatsapp;
