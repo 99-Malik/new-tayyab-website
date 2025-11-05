@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
-import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid';
+import { PhoneIcon, EnvelopeIcon, MapPinIcon, ChatBubbleLeftRightIcon } from '@heroicons/react/24/solid';
 import { usePathname } from 'next/navigation';
 import phoneNumber from '../../content/phoneNumber';
 
@@ -179,16 +179,19 @@ const Footer = ({ color, company }) => {
             <div className="flex items-center space-x-6">
               <a 
                 href={`tel:${phoneNumber}`}
-                className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105"
+                className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
               >
-                📞 Call Now
+                <PhoneIcon className="w-4 h-4" />
+                Call Now
               </a>
               <a 
                 href={`//api.whatsapp.com/send?phone=${phoneNumber}&text=Hi, I need appliance repair service.`}
                 target="_blank"
-                className="bg-green-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-green-700 transition-all duration-300 transform hover:scale-105"
+                className="text-white border-2 border-white px-4 py-2 rounded-full text-sm font-medium hover:opacity-90 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
+                style={{ backgroundColor: '#06b6d4' }}
               >
-                💬 WhatsApp
+                <ChatBubbleLeftRightIcon className="w-4 h-4" />
+                WhatsApp
               </a>
             </div>
           </div>
