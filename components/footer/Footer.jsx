@@ -8,7 +8,11 @@ import phoneNumber from '../../content/phoneNumber';
 const Footer = ({ color, company }) => {
   const pathname = usePathname();
 
-  if (pathname.startsWith('/companies')) {
+  if (pathname.startsWith('/companies') || 
+      pathname.startsWith('/boschRepair') || 
+      pathname.startsWith('/siemensRepair') || 
+      pathname.startsWith('/lgRepair') || 
+      pathname.startsWith('/samsungRepair')) {
     return null;
   }
 

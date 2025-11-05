@@ -10,7 +10,11 @@ const Header = () => {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
-  if (pathname.startsWith("/companies")) {
+  if (pathname.startsWith("/companies") || 
+      pathname.startsWith("/boschRepair") || 
+      pathname.startsWith("/siemensRepair") || 
+      pathname.startsWith("/lgRepair") || 
+      pathname.startsWith("/samsungRepair")) {
     return null;
   }
 
