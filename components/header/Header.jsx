@@ -14,7 +14,8 @@ const Header = () => {
       pathname.startsWith("/boschRepair") || 
       pathname.startsWith("/siemensRepair") || 
       pathname.startsWith("/lgRepair") || 
-      pathname.startsWith("/samsungRepair")) {
+      pathname.startsWith("/samsungRepair") ||
+      pathname.startsWith("/tekaRepair")) {
     return null;
   }
 
@@ -30,7 +31,7 @@ const Header = () => {
           <div className="flex items-center justify-center">
             <div className="flex items-center space-x-2 text-white">
               <PhoneIcon className="h-4 w-4" />
-              <span className="text-sm font-medium">Emergency Service Available 24/7</span>
+              <span className="text-sm font-medium">Service Available 24/7</span>
               <span className="hidden md:inline">•</span>
               <Link 
                 href={`tel:${phoneNumber}`}

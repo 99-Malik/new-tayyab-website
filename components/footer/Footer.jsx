@@ -12,7 +12,8 @@ const Footer = ({ color, company }) => {
       pathname.startsWith('/boschRepair') || 
       pathname.startsWith('/siemensRepair') || 
       pathname.startsWith('/lgRepair') || 
-      pathname.startsWith('/samsungRepair')) {
+      pathname.startsWith('/samsungRepair') ||
+      pathname.startsWith('/tekaRepair')) {
     return null;
   }
 

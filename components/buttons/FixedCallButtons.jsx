@@ -38,6 +38,11 @@ const FixedCallButtons = () => {
         gradient: 'linear-gradient(135deg, #000000 0%, #1a1a1a 100%)',
         pulse: 'linear-gradient(135deg, #000000 0%, #1a1a1a 100%)'
       };
+    } else if (pathname.startsWith('/tekaRepair')) {
+      return { 
+        gradient: 'linear-gradient(135deg, #E63946 0%, #C1121F 100%)',
+        pulse: 'linear-gradient(135deg, #E63946 0%, #C1121F 100%)'
+      };
     }
     // Default colors for non-brand pages
     return { 
@@ -58,6 +63,8 @@ const FixedCallButtons = () => {
       return '#A50034';
     } else if (pathname.startsWith('/samsungRepair')) {
       return '#000000';
+    } else if (pathname.startsWith('/tekaRepair')) {
+      return '#E63946';
     }
     return '#06b6d4';
   };
@@ -72,6 +79,8 @@ const FixedCallButtons = () => {
       return `Hi, I need LG appliance repair service.`;
     } else if (pathname.startsWith('/samsungRepair')) {
       return `Hi, I need Samsung appliance repair service.`;
+    } else if (pathname.startsWith('/tekaRepair')) {
+      return `Hi, I need Teka appliance repair service.`;
     }
     return `Hi, I need appliance repair service.`;
   };
@@ -125,7 +134,7 @@ const FixedCallButtons = () => {
           
           {/* Floating Badge - Mobile Only */}
           <div className="absolute -top-1 -right-1 sm:hidden">
-            <div className="w-3 h-3 rounded-full animate-pulse" style={{ backgroundColor: pathname.startsWith('/samsungRepair') ? '#000000' : pathname.startsWith('/boschRepair') ? '#CF1F3B' : pathname.startsWith('/siemensRepair') ? '#01A4B4' : pathname.startsWith('/lgRepair') ? '#A50034' : '#ef4444' }}></div>
+            <div className="w-3 h-3 rounded-full animate-pulse" style={{ backgroundColor: pathname.startsWith('/samsungRepair') ? '#000000' : pathname.startsWith('/boschRepair') ? '#CF1F3B' : pathname.startsWith('/siemensRepair') ? '#01A4B4' : pathname.startsWith('/lgRepair') ? '#A50034' : pathname.startsWith('/tekaRepair') ? '#E63946' : '#ef4444' }}></div>
           </div>
         </div>
       </div>
