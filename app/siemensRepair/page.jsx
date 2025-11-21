@@ -5,15 +5,24 @@ import BrandRepairPage from "../../components/pages/BrandRepairPage";
 
 const HomePage = () => {
   return (
+    // <BrandRepairPage
+    //   brandName="Siemens"
+    //   primaryColor="#01A4B4"
+    //   secondaryColor="#007a87"
+    //   heroGradient="linear-gradient(160deg, #003d43 0%, #005a61 25%, #01A4B4 75%, #007a87 100%)"
+    //   sectionGradient="linear-gradient(135deg, #0a1a1c 0%, #0d2a2e 25%, #01A4B4 75%, #007a87 100%)"
+    //   statsGradient="linear-gradient(135deg, #01A4B4 0%, #007a87 100%)"
+    //   includeTV={false}
+    // />
     <BrandRepairPage
-      brandName="Siemens"
-      primaryColor="#01A4B4"
-      secondaryColor="#007a87"
-      heroGradient="linear-gradient(160deg, #003d43 0%, #005a61 25%, #01A4B4 75%, #007a87 100%)"
-      sectionGradient="linear-gradient(135deg, #0a1a1c 0%, #0d2a2e 25%, #01A4B4 75%, #007a87 100%)"
-      statsGradient="linear-gradient(135deg, #01A4B4 0%, #007a87 100%)"
-      includeTV={false}
-    />
+    brandName="Fix Appliances AE"
+    primaryColor="#06b6d4"
+    secondaryColor="#3b82f6"
+    heroGradient="linear-gradient(160deg, #1e293b 0%, #334155 25%, #06b6d4 75%, #3b82f6 100%)"
+    sectionGradient="linear-gradient(135deg, #1e293b 0%, #334155 25%, #06b6d4 75%, #3b82f6 100%)"
+    statsGradient="linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)"
+    includeTV={true}
+  />
   );
 };
 

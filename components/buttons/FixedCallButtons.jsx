@@ -55,17 +55,17 @@ const FixedCallButtons = () => {
 
   // Get solid brand color for WhatsApp button
   const getSolidBrandColor = () => {
-    if (pathname.startsWith('/boschRepair')) {
-      return '#CF1F3B';
-    } else if (pathname.startsWith('/siemensRepair')) {
-      return '#01A4B4';
-    } else if (pathname.startsWith('/lgRepair')) {
-      return '#A50034';
-    } else if (pathname.startsWith('/samsungRepair')) {
-      return '#000000';
-    } else if (pathname.startsWith('/tekaRepair')) {
-      return '#E63946';
-    }
+    // if (pathname.startsWith('/boschRepair')) {
+    //   return '#CF1F3B';
+    // } else if (pathname.startsWith('/siemensRepair')) {
+    //   return '#01A4B4';
+    // } else if (pathname.startsWith('/lgRepair')) {
+    //   return '#A50034';
+    // } else if (pathname.startsWith('/samsungRepair')) {
+    //   return '#000000';
+    // } else if (pathname.startsWith('/tekaRepair')) {
+    //   return '#E63946';
+    // }
     return '#06b6d4';
   };
 
@@ -120,7 +120,8 @@ const FixedCallButtons = () => {
           <a
             href={`tel:${phoneNumber}`}
             className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-2xl sm:rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center group opacity-90 hover:opacity-100"
-            style={{ background: brandColors.gradient }}
+            // style={{ background: brandColors.gradient }}
+            style={{ background: '#06b6d4' }}
             onClick={() => gtag_report_conversion(pathname)}
           >
             <PhoneIcon className="h-7 w-7 sm:h-8 sm:w-8 md:h-10 md:w-10 text-white group-hover:scale-110 transition-transform duration-300" />
@@ -134,8 +135,10 @@ const FixedCallButtons = () => {
           
           {/* Floating Badge - Mobile Only */}
           <div className="absolute -top-1 -right-1 sm:hidden">
-            <div className="w-3 h-3 rounded-full animate-pulse" style={{ backgroundColor: pathname.startsWith('/samsungRepair') ? '#000000' : pathname.startsWith('/boschRepair') ? '#CF1F3B' : pathname.startsWith('/siemensRepair') ? '#01A4B4' : pathname.startsWith('/lgRepair') ? '#A50034' : pathname.startsWith('/tekaRepair') ? '#E63946' : '#ef4444' }}></div>
+            {/* <div className="w-3 h-3 rounded-full animate-pulse" style={{ backgroundColor: pathname.startsWith('/samsungRepair') ? '#000000' : pathname.startsWith('/boschRepair') ? '#CF1F3B' : pathname.startsWith('/siemensRepair') ? '#01A4B4' : pathname.startsWith('/lgRepair') ? '#A50034' : pathname.startsWith('/tekaRepair') ? '#E63946' : '#ef4444' }}></div> */}
+            <div className="w-3 h-3 rounded-full animate-pulse" style={{ backgroundColor: '#06b6d4' }}></div>
           </div>
+
         </div>
       </div>
 

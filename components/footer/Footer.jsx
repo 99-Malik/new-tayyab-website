@@ -8,14 +8,14 @@ import phoneNumber from '../../content/phoneNumber';
 const Footer = ({ color, company }) => {
   const pathname = usePathname();
 
-  if (pathname.startsWith('/companies') || 
-      pathname.startsWith('/boschRepair') || 
-      pathname.startsWith('/siemensRepair') || 
-      pathname.startsWith('/lgRepair') || 
-      pathname.startsWith('/samsungRepair') ||
-      pathname.startsWith('/tekaRepair')) {
-    return null;
-  }
+  // if (pathname.startsWith('/companies') || 
+  //     pathname.startsWith('/boschRepair') || 
+  //     pathname.startsWith('/siemensRepair') || 
+  //     pathname.startsWith('/lgRepair') || 
+  //     pathname.startsWith('/samsungRepair') ||
+  //     pathname.startsWith('/tekaRepair')) {
+  //   return null;
+  // }
 
   return (
     <footer className="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white">

@@ -1,10 +1,11 @@
 import BrandHeader from "../../components/header/BrandHeader";
 import BrandFooter from "../../components/footer/BrandFooter";
-
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 export default function TekaLayout({ children }) {
   return (
     <>
-      <BrandHeader 
+      {/* <BrandHeader 
         brandName="Teka" 
         logoPath="/teka.svg" 
         brandColor="#E63946"
@@ -18,7 +19,10 @@ export default function TekaLayout({ children }) {
         brandColor="#E63946"
         logoWidth={120}
         logoHeight={40}
-      />
+      /> */}
+
+
+      {children}
     </>
   );
 }

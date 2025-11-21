@@ -10,14 +10,14 @@ const Header = () => {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
-  if (pathname.startsWith("/companies") || 
-      pathname.startsWith("/boschRepair") || 
-      pathname.startsWith("/siemensRepair") || 
-      pathname.startsWith("/lgRepair") || 
-      pathname.startsWith("/samsungRepair") ||
-      pathname.startsWith("/tekaRepair")) {
-    return null;
-  }
+  // if (pathname.startsWith("/companies") || 
+  //     pathname.startsWith("/boschRepair") || 
+  //     pathname.startsWith("/siemensRepair") || 
+  //     pathname.startsWith("/lgRepair") || 
+  //     pathname.startsWith("/samsungRepair") ||
+  //     pathname.startsWith("/tekaRepair")) {
+  //   return null;
+  // }
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
